@@ -1,13 +1,13 @@
 # Markinim
-This is the @MarkinimBot Telegram bot's source code. It's a bit messy (it was never meant to be open source at the beginning) so it needs a cleanup, but it works. Memory usage and performance are pretty good. It uses sqlite.
+This is the @MarkinimBot Telegram bot's source code. It learns from your messages and tries to formulate its own sentences. It uses sqlite, and the bot itself is written in Rust.
 
-# Deploy
+## Deploy
 > For docker instructions, [skip here](#deploy-with-docker)
 
-Install required dependencies:
+Install the Rust toolchain (e.g. with [rustup](https://rustup.rs)), then build:
 
 ```shell
-$ nimble install
+$ cargo build --release
 ```
 
 Then create a `secret.ini` file which looks like this, where admin is your Telegram user id, and token is the bot token obtainable from @BotFather.
@@ -21,10 +21,14 @@ logging = 1
 
 You can also add a `keeplast = 1500` parameter to the configuration, to avoid ram overloads by processing a maximum of keeplast messages per session (default: `1500`)
 
+Every setting can also be provided through the environment (`BOT_TOKEN`, `ADMIN_ID`, `LOGGING`, `KEEP_LAST`), which takes effect when the key is missing from `secret.ini`.
+
 ```shell
-$ nim c -o:markinim src/markinim.nim
-$ ./markinim
+$ ./target/release/markinim
 ```
+
+The bot reads and writes `data/markov.db` relative to the working directory.
+
 ## Deploy (with docker)
 - Copy `.env.sample` to `.env`
 - Edit `BOT_TOKEN` and `ADMIN_ID`
@@ -32,10 +36,11 @@ $ ./markinim
 - Build and run the image with `docker compose up -d --build`
 - Run the bot with `docker compose up -d`
 
-### Old instructions
-> ⚠️ **WARNING**: deprecated. Use the docker compose instructions above instead.
-- Build the image with `docker build -t markinim .`
-- Run the bot using `docker run -itd -v="${pwd}/data":/code/data:z --env-file=.env --restart=unless-stopped --name=markinimbot markinim`
+## Tests
+
+```shell
+$ cargo test
+```
 
 ## Backups
 > ⚠️ **WARNING**: This is an experimental backup script. It's not well-tested yet. Use it at your own risk. I am not responsible for any data loss. I don't know if it works.
@@ -48,3 +53,7 @@ $ ./markinim
   - Add `0 */4 * * * /path/to/markinim/tools/backup.sh`
   - Save and exit
 - Done! Now you should have a backup every 4h in the specified directory
+
+## Credits
+- The quote image fonts (Lora, Oswald, Montserrat) are under the Open Fonts License
+- The emojipasta feature ports [EmojipastaBot](https://github.com/Kevinpgalligan/EmojipastaBot)'s EmojipastaGenerator (MIT)

@@ -1,20 +1,19 @@
-FROM nimlang/choosenim
-
-RUN apt install -y libsqlite3-dev sqlite3
-
-RUN choosenim 2.0.2 && \
-    nimble install -y nimble
-
-RUN mkdir /code
-COPY ./markinim.nimble /code
+FROM rust:1-slim AS builder
 
 WORKDIR /code
-RUN nimble install --depsOnly -y
-# cache dependencies if code gets modified
+COPY Cargo.toml Cargo.lock ./
+# Build the dependency tree first so code edits don't invalidate the cache
+RUN mkdir src && echo "pub fn stub() {}" > src/lib.rs && echo "fn main() {}" > src/main.rs && \
+    cargo build --release && rm -rf src
 
-COPY . /code
+COPY . .
+RUN cargo build --release && cp target/release/markinim /code/markinim
 
-# RUN nimble install -y
-RUN nim c -o:markinim src/markinim.nim
+FROM debian:bookworm-slim
+
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /code
+COPY --from=builder /code/markinim /code/markinim
 
 CMD [ "./markinim" ]
