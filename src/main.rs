@@ -2,6 +2,7 @@ use std::sync::Arc;
 use std::time::Duration;
 
 use teloxide::prelude::*;
+use teloxide::types::{BotCommand, BotCommandScope};
 
 use markinim::config;
 use markinim::db::{DATA_FOLDER, DB_PATH, Db};
@@ -81,6 +82,8 @@ async fn main() {
         }
     }
 
+    sync_commands(&bot).await;
+
     // Port of cleanerWorker, on a 30 second cadence (the Nim loop slept 30ms).
     let sweeper_state = st.clone();
     let sweeper_bot = bot.clone();
@@ -124,4 +127,45 @@ async fn main() {
 
 fn quit(code: i32) -> ! {
     std::process::exit(code)
+}
+
+/// The public command menu (mirrors src/help.md; beta features excluded).
+const BOT_COMMANDS: [(&str, &str); 14] = [
+    ("start", "Start the bot"),
+    ("help", "Show the help message"),
+    ("enable", "Enable learning in this chat"),
+    ("disable", "Disable learning in this chat"),
+    ("markov", "Generate a sentence from learned data"),
+    ("quote", "Generate an image quote"),
+    ("percentage", "Tune the bot's reply ratio (0-100%)"),
+    ("settings", "Edit the chat settings"),
+    ("sessions", "Show the sessions in this chat"),
+    ("delete", "Delete the current session's data"),
+    ("deletefrom", "Delete a user's messages in this chat"),
+    ("deleteme", "Delete all your data (private chats only)"),
+    ("privacy", "Read the privacy policy"),
+    ("manageconsent", "Manage your data consent"),
+];
+
+/// Sync the command menu Telegram clients show: clear the lists the bot's
+/// previous life may have registered (in every bulk scope), then set the
+/// current commands. Failures are logged, never fatal.
+async fn sync_commands(bot: &Bot) {
+    for scope in [
+        BotCommandScope::Default,
+        BotCommandScope::AllPrivateChats,
+        BotCommandScope::AllGroupChats,
+        BotCommandScope::AllChatAdministrators,
+    ] {
+        if let Err(e) = bot.delete_my_commands().scope(scope).send().await {
+            tracing::error!("[ERROR] deleteMyCommands: {e}");
+        }
+    }
+    let commands: Vec<BotCommand> = BOT_COMMANDS
+        .iter()
+        .map(|(command, description)| BotCommand::new(*command, *description))
+        .collect();
+    if let Err(e) = bot.set_my_commands(commands).send().await {
+        tracing::error!("[ERROR] setMyCommands: {e}");
+    }
 }
