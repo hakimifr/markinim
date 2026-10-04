@@ -12,3 +12,6 @@ tools/backup_script.sh
 tools/backup.sh
 
 **/__pycache__
+
+# Rust
+/target/
