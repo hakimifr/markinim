@@ -163,15 +163,10 @@ pub async fn handle_message(
         || (percentage > 0 && replied_to_markinim && session.always_reply);
     if trigger && !st.is_flood(chat_id, 10, 30) {
         // Max 10 messages per chat per 30 seconds
-        let context = if session.case_sensitive {
-            text.to_owned()
-        } else {
-            text.to_lowercase()
-        };
         let generated = {
             let markovs = st.markovs.lock().unwrap();
             match markovs.get(&chat_id) {
-                Some((_, chain)) => chain.generate_reply(&context, &mut rng),
+                Some((_, chain)) => chain.generate(None, &mut rng).ok(),
                 None => None,
             }
         };

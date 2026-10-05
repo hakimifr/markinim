@@ -651,13 +651,10 @@ async fn markov_command(
             return Ok(());
         };
         let mut rng = rand::rng();
-        match begin.as_deref() {
+        match chain.generate(begin.as_deref(), &mut rng) {
+            Ok(text) => Some(text),
             // Nim: catch MarkovGenerateError and retry with a plain generation.
-            Some(begin) => chain
-                .generate(Some(begin), &mut rng)
-                .ok()
-                .or_else(|| chain.generate_best(&mut rng)),
-            None => chain.generate_best(&mut rng),
+            Err(_) => chain.generate(None, &mut rng).ok(),
         }
     };
     let Some(generated) = generated else {
@@ -749,7 +746,7 @@ async fn would_you_rather(
             let Some((_, chain)) = markovs.get(&ctx.chat_id) else {
                 break;
             };
-            chain.generate_best(&mut rng)
+            chain.generate(None, &mut rng).ok()
         };
         match generated {
             Some(text) => options.push(decorate(&cached_session, text)),
