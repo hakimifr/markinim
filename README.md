@@ -42,6 +42,9 @@ The bot reads and writes `data/markov.db` relative to the working directory.
 $ cargo test
 ```
 
+`tests/nim_parity.rs` replays outputs captured from the original Nim bot (see
+`tests/fixtures/nim/README.md`), so the generated text stays identical to it.
+
 ## Backups
 > ⚠️ **WARNING**: This is an experimental backup script. It's not well-tested yet. Use it at your own risk. I am not responsible for any data loss. I don't know if it works.
 - Setup [`syncthing`](https://syncthing.net/) if you want to sync the backups to another device

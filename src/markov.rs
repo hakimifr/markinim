@@ -11,6 +11,8 @@ use rand::Rng;
 use rand::seq::IteratorRandom;
 use std::collections::HashMap;
 
+use crate::text::nim_case::to_lower_nim;
+
 pub const START: &str = "__start";
 pub const END: &str = "__end";
 
@@ -36,7 +38,7 @@ impl MarkovChain {
     pub fn add_sample(&mut self, sample: &str, as_lower: bool) {
         self.samples.push(sample.to_owned());
         let text = if as_lower {
-            sample.to_lowercase()
+            to_lower_nim(sample)
         } else {
             sample.to_owned()
         };
@@ -56,6 +58,22 @@ impl MarkovChain {
                 .entry(pair[1].clone())
                 .or_insert(0) += 1;
         }
+    }
+
+    /// Every `(from, to, count)` edge of the model, sorted, for comparing the
+    /// model against the one nimkov builds.
+    pub fn transitions(&self) -> Vec<(String, String, u32)> {
+        let mut rows: Vec<(String, String, u32)> = self
+            .model
+            .iter()
+            .flat_map(|(from, followers)| {
+                followers
+                    .iter()
+                    .map(move |(to, count)| (from.clone(), to.clone(), *count))
+            })
+            .collect();
+        rows.sort();
+        rows
     }
 
     /// Mirrors `nimkov.generate`: raises [`NotEnoughSamples`] when the samples

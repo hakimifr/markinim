@@ -1059,7 +1059,6 @@ dependencies = [
  "async-trait",
  "fancy-regex",
  "image",
- "owoify_rs",
  "rand 0.9.5",
  "regex",
  "rusqlite",
@@ -1191,17 +1190,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "36820e9051aca1014ddc75770aab4d68bc1e9e632f0f5627c4086bc216fb583b"
 dependencies = [
  "ttf-parser",
-]
-
-[[package]]
-name = "owoify_rs"
-version = "2.0.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "66ea4154af9b4d20125c4f925d4be6687b27786b80b543bcedb0e2a610fb6e1c"
-dependencies = [
- "lazy_static",
- "rand 0.10.3",
- "regex",
 ]
 
 [[package]]

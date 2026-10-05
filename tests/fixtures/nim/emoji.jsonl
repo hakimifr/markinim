@@ -1,0 +1,600 @@
+{"mode": "zero", "in": "Hello World", "out": "Hello World"}
+{"mode": "zero", "in": "hello  world", "out": "hello  world"}
+{"mode": "zero", "in": "  leading", "out": "  leading"}
+{"mode": "zero", "in": "trailing  ", "out": "trailing  "}
+{"mode": "zero", "in": "", "out": ""}
+{"mode": "zero", "in": "a", "out": "a"}
+{"mode": "zero", "in": "  ", "out": "  "}
+{"mode": "zero", "in": "!!!", "out": "!!!"}
+{"mode": "zero", "in": "...hello...", "out": "...hello..."}
+{"mode": "zero", "in": "\"a\"", "out": "\"a\""}
+{"mode": "zero", "in": "(b)", "out": "(b)"}
+{"mode": "zero", "in": "_c_", "out": "_c_"}
+{"mode": "zero", "in": "1 2 3", "out": "1 2 3"}
+{"mode": "zero", "in": "x y z", "out": "x y z"}
+{"mode": "zero", "in": "I love you", "out": "I love you"}
+{"mode": "zero", "in": "a\tb\nc", "out": "a\tb\nc"}
+{"mode": "zero", "in": "é a", "out": "é a"}
+{"mode": "zero", "in": "a é", "out": "a é"}
+{"mode": "zero", "in": ":is \\🌺x ?\\\fx\u000band~ ?a_b ;#tag; ñandú #tag;  😀a/", "out": ":is \\🌺x ?\\\fx\u000band~ ?a_b ;#tag; ñandú #tag;  😀a/"}
+{"mode": "zero", "in": "42 hot: 包 e.g.", "out": "42 hot: 包 e.g."}
+{"mode": "zero", "in": "<d>\"　,lol <d> Z\r?a包 \t the A\t'[b]", "out": "<d>\"　,lol <d> Z\r?a包 \t the A\t'[b]"}
+{"mode": "zero", "in": "bad 'quoted' Ok.\r$5) \t e.g.! \t :Ok *k*　\"dq\"*\u000bıi  :ok:\u000b!!!", "out": "bad 'quoted' Ok.\r$5) \t e.g.! \t :Ok *k*　\"dq\"*\u000bıi  :ok:\u000b!!!"}
+{"mode": "zero", "in": "murder", "out": "murder"}
+{"mode": "zero", "in": " ;dog(\tY: (love", "out": " ;dog(\tY: (love"}
+{"mode": "zero", "in": "?good I\n? \t world　包\u000b😀 Z\t@user !ﾟ \t 100%! …X", "out": "?good I\n? \t world　包\u000b😀 Z\t@user !ﾟ \t 100%! …X"}
+{"mode": "zero", "in": "puss", "out": "puss"}
+{"mode": "zero", "in": "Ok @user\f🌺x {c}\u000b\"dq\",\r!X A& \t nice Ok' a_b\rbad", "out": "Ok @user\f🌺x {c}\u000b\"dq\",\r!X A& \t nice Ok' a_b\rbad"}
+{"mode": "zero", "in": "-bad", "out": "-bad"}
+{"mode": "zero", "in": "{c} ﾟ　)日本語, the\tıi &ok ﾟ is\\ lol Z 7　#tag)", "out": "{c} ﾟ　)日本語, the\tıi &ok ﾟ is\\ lol Z 7　#tag)"}
+{"mode": "zero", "in": "日本語 \"dq\"\n~!!!(\f/dog <d> ^{c} a包\n;🌺x \t hello", "out": "日本語 \"dq\"\n~!!!(\f/dog <d> ^{c} a包\n;🌺x \t hello"}
+{"mode": "zero", "in": "a ?é*  ~you 'quoted'\n#tag'", "out": "a ?é*  ~you 'quoted'\n#tag'"}
+{"mode": "zero", "in": "ıi\"\t'...^\n)z /-;\rlol)\ndog\tis\rzzz\n_foo", "out": "ıi\"\t'...^\n)z /-;\rlol)\ndog\tis\rzzz\n_foo"}
+{"mode": "zero", "in": "Z 😀a-", "out": "Z 😀a-"}
+{"mode": "zero", "in": "1st ^... \\OK\u000b&I", "out": "1st ^... \\OK\u000b&I"}
+{"mode": "zero", "in": "~world \t you\t😀; I,\rmoney", "out": "~world \t you\t😀; I,\rmoney"}
+{"mode": "zero", "in": "fire 日本語\rlove w\f,fire　!!!", "out": "fire 日本語\rlove w\f,fire　!!!"}
+{"mode": "zero", "in": "&good&\fé a-b\\ {c}; \t ^1st\f_foo a包", "out": "&good&\fé a-b\\ {c}; \t ^1st\f_foo a包"}
+{"mode": "zero", "in": "1st\ne.g.; \t cat \"dq\"\tw*", "out": "1st\ne.g.; \t cat \"dq\"\tw*"}
+{"mode": "zero", "in": "\\cold (a)/ a包 ok? the'\n_foo", "out": "\\cold (a)/ a包 ok? the'\n_foo"}
+{"mode": "zero", "in": "привет\nlol: pizza &[b]\t/a-b Ok \t is #tag /a包,", "out": "привет\nlol: pizza &[b]\t/a-b Ok \t is #tag /a包,"}
+{"mode": "zero", "in": "good\r&k\t;hot\r\"#tag-　ñandú\\\u000bw-　(a)*\t1st OK& Y\nñandú 1st\"", "out": "good\r&k\t;hot\r\"#tag-　ñandú\\\u000bw-　(a)*\t1st OK& Y\nñandú 1st\""}
+{"mode": "zero", "in": "#tag* \t …a包\" Ok　great/\u000bI) 7 the\u000b-\"", "out": "#tag* \t …a包\" Ok　great/\u000bI) 7 the\u000b-\""}
+{"mode": "zero", "in": "love!\u000band\" __  a/\u000b包-", "out": "love!\u000band\" __  a/\u000b包-"}
+{"mode": "zero", "in": "?a_b(\t;hello\fe.g.", "out": "?a_b(\t;hello\fe.g."}
+{"mode": "zero", "in": "rosy palm and her 5 sisters", "out": "rosy palm and her 5 sisters"}
+{"mode": "zero", "in": "the& ^the, @user;\rgreat [b] w\u000b42 ... ﾟ 100%^\f日本語 包", "out": "the& ^the, @user;\rgreat [b] w\u000b42 ... ﾟ 100%^\f日本語 包"}
+{"mode": "zero", "in": "é\\\t$5 \t w! \t x\r(Y* hello-\n~w　q:  _foo \"dq\"", "out": "é\\\t$5 \t w! \t x\r(Y* hello-\n~w　q:  _foo \"dq\""}
+{"mode": "zero", "in": "niggor", "out": "niggor"}
+{"mode": "zero", "in": "$5…\fa-b\f7　ñandú dog* X? [b]  日本語 Ok 'quoted'& -X pizza", "out": "$5…\fa-b\f7　ñandú dog* X? [b]  日本語 Ok 'quoted'& -X pizza"}
+{"mode": "zero", "in": " привет- Y", "out": " привет- Y"}
+{"mode": "zero", "in": "42　love\rX\ta_b\u000blove& Z\"\na-b　.😀a ;'quoted' привет  'привет", "out": "42　love\rX\ta_b\u000blove& Z\"\na-b　.😀a ;'quoted' привет  'привет"}
+{"mode": "zero", "in": "é\\", "out": "é\\"}
+{"mode": "zero", "in": "ƒ\u000bworld\tI\\\u000bbad… ñandú a.\u000b…fire! love zzz", "out": "ƒ\u000bworld\tI\\\u000bbad… ñandú a.\u000b…fire! love zzz"}
+{"mode": "zero", "in": "kaffre", "out": "kaffre"}
+{"mode": "zero", "in": "k -\rthe　'日本語\"\u000bpizza\ty\u000b100%…  k' \t 'quoted';", "out": "k -\rthe　'日本語\"\u000bpizza\ty\u000b100%…  k' \t 'quoted';"}
+{"mode": "zero", "in": "die", "out": "die"}
+{"mode": "zero", "in": "and nice\nıi", "out": "and nice\nıi"}
+{"mode": "zero", "in": "a包: good 包 you a-b 🌺x .\"dq\"!\r😀a\u000b'I& &__ 🌺x", "out": "a包: good 包 you a-b 🌺x .\"dq\"!\r😀a\u000b'I& &__ 🌺x"}
+{"mode": "zero", "in": "the: world\u000b*...: world", "out": "the: world\u000b*...: world"}
+{"mode": "zero", "in": "I great ok ? ok .- é'\u000bX &?", "out": "I great ok ? ok .- é'\u000bX &?"}
+{"mode": "zero", "in": " …\"dq\"　lol 100%  __", "out": " …\"dq\"　lol 100%  __"}
+{"mode": "zero", "in": "slant", "out": "slant"}
+{"mode": "zero", "in": "<d> <d>\f'quoted' ﾟ", "out": "<d> <d>\f'quoted' ﾟ"}
+{"mode": "zero", "in": " 2nd\fbad! dog( 'quoted', cold/\u000b2nd  ıi dog\\\t\\包", "out": " 2nd\fbad! dog( 'quoted', cold/\u000b2nd  ıi dog\\\t\\包"}
+{"mode": "zero", "in": "hot ,42 bad Ok\ngreat*\u000bI)\tq　dog\u000bhello\\ nice -y a", "out": "hot ,42 bad Ok\ngreat*\u000bI)\tq　dog\u000bhello\\ nice -y a"}
+{"mode": "zero", "in": "lol?", "out": "lol?"}
+{"mode": "zero", "in": "&hot y/ \\a!\t\"great^", "out": "&hot y/ \\a!\t\"great^"}
+{"mode": "zero", "in": "floo", "out": "floo"}
+{"mode": "zero", "in": "bad a-b 🌺x\n100%", "out": "bad a-b 🌺x\n100%"}
+{"mode": "zero", "in": "/money [b] \t hot\u000bzzz", "out": "/money [b] \t hot\u000bzzz"}
+{"mode": "zero", "in": "nice ıi ñandú _foo-\rx… .love I", "out": "nice ıi ñandú _foo-\rx… .love I"}
+{"mode": "zero", "in": "k cold~ great\tmoney \t …y ƒ a-b *Z Y( &🌺x", "out": "k cold~ great\tmoney \t …y ƒ a-b *Z Y( &🌺x"}
+{"mode": "zero", "in": " #tag\u000b&包) *100%\" bad …(a)-\n'quoted'\n*100% and love -… ?? _foo!", "out": " #tag\u000b&包) *100%\" bad …(a)-\n'quoted'\n*100% and love -… ?? _foo!"}
+{"mode": "zero", "in": "(@user w \t zzz good' ıi\f^包", "out": "(@user w \t zzz good' ıi\f^包"}
+{"mode": "zero", "in": "日本語 A\rpizza Y cat 2nd é: /a包 \t 包 …w", "out": "日本語 A\rpizza Y cat 2nd é: /a包 \t 包 …w"}
+{"mode": "zero", "in": "'!!!… \"money\" ﾟ\" Ok\rok\rfire", "out": "'!!!… \"money\" ﾟ\" Ok\rok\rfire"}
+{"mode": "zero", "in": "pizza; w cat", "out": "pizza; w cat"}
+{"mode": "zero", "in": "Z the 2nd\fq (a)\fñandú\r_foo", "out": "Z the 2nd\fq (a)\fñandú\r_foo"}
+{"mode": "zero", "in": "2nd\u000bbad, *42 🌺x- love \t pizza\f-\\ {c},", "out": "2nd\u000bbad, *42 🌺x- love \t pizza\f-\\ {c},"}
+{"mode": "zero", "in": "fungus", "out": "fungus"}
+{"mode": "zero", "in": "Ok", "out": "Ok"}
+{"mode": "zero", "in": "love/", "out": "love/"}
+{"mode": "zero", "in": "zzz\t\\good! ıi", "out": "zzz\t\\good! ıi"}
+{"mode": "zero", "in": "fire привет( ,ıi X* [b]\t-日本語/\flove\nƒ\f1st? é", "out": "fire привет( ,ıi X* [b]\t-日本語/\flove\nƒ\f1st? é"}
+{"mode": "zero", "in": "playboy", "out": "playboy"}
+{"mode": "zero", "in": "fingerfucked ", "out": "fingerfucked "}
+{"mode": "zero", "in": ":- Y  \"Z …bad　\"dq\"&\r;a包\rI; z Y\ny Y", "out": ":- Y  \"Z …bad　\"dq\"&\r;a包\rI; z Y\ny Y"}
+{"mode": "zero", "in": "ƒ \t good\n…A; :w&　-　?\fhot^ I *money/", "out": "ƒ \t good\n…A; :w&　-　?\fhot^ I *money/"}
+{"mode": "zero", "in": " ƒ' \"dq\"-\nlol' )ıi w  hello", "out": " ƒ' \"dq\"-\nlol' )ıi w  hello"}
+{"mode": "zero", "in": " \t ;\"dq\"- 日本語?\tz'\rcold ,world\fq/\u000b42 a^ (a): 😀", "out": " \t ;\"dq\"- 日本語?\tz'\rcold ,world\fq/\u000b42 a^ (a): 😀"}
+{"mode": "zero", "in": "?zzz\rñandú: …nice　lol! \\2nd' I,", "out": "?zzz\rñandú: …nice　lol! \\2nd' I,"}
+{"mode": "zero", "in": "cocky", "out": "cocky"}
+{"mode": "zero", "in": "\f~dog  i Z 😀 \t ", "out": "\f~dog  i Z 😀 \t "}
+{"mode": "zero", "in": "日本語 <d>*", "out": "日本語 <d>*"}
+{"mode": "zero", "in": "... x\\  {c}\f\"is\nhello　ok  ﾟ\t,dog.\n日本語", "out": "... x\\  {c}\f\"is\nhello　ok  ﾟ\t,dog.\n日本語"}
+{"mode": "zero", "in": "lol!", "out": "lol!"}
+{"mode": "zero", "in": "'quoted'\rY ıi 日本語 i cat ok ,money\f*Z world (and ", "out": "'quoted'\rY ıi 日本語 i cat ok ,money\f*Z world (and "}
+{"mode": "zero", "in": "Y\\\t?& \t @user $5 !?\fis/ *ñandú $5　bad k^ !!! q", "out": "Y\\\t?& \t @user $5 !?\fis/ *ñandú $5　bad k^ !!! q"}
+{"mode": "zero", "in": "i good /bad 100%\u000b!包/ A good) bad(\n😀a) money hot", "out": "i good /bad 100%\u000b!包/ A good) bad(\n😀a) money hot"}
+{"mode": "zero", "in": "shitfull", "out": "shitfull"}
+{"mode": "zero", "in": "money\"\r.#tag fire/ \t 1st 7~\rZ é \"bad bad'", "out": "money\"\r.#tag fire/ \t 1st 7~\rZ é \"bad bad'"}
+{"mode": "zero", "in": "love　cat", "out": "love　cat"}
+{"mode": "zero", "in": "😀 love q\tz\" _foo 🌺x A", "out": "😀 love q\tz\" _foo 🌺x A"}
+{"mode": "zero", "in": "(a)… )1st　and @user  love zzz\fdog- w(", "out": "(a)… )1st　and @user  love zzz\fdog- w("}
+{"mode": "zero", "in": "　money\t{c}, dog' ﾟ a_b… 😀a A?", "out": "　money\t{c}, dog' ﾟ a_b… 😀a A?"}
+{"mode": "zero", "in": "crappy", "out": "crappy"}
+{"mode": "zero", "in": "kum", "out": "kum"}
+{"mode": "zero", "in": " nice <d>\r<d>  \"dq\"& ıi! {c}\r,?… \"cat\u000b__* (_foo　z _foo", "out": " nice <d>\r<d>  \"dq\"& ıi! {c}\r,?… \"cat\u000b__* (_foo　z _foo"}
+{"mode": "zero", "in": "blonde action", "out": "blonde action"}
+{"mode": "zero", "in": "-fire?\flol  a pizza  ƒ^", "out": "-fire?\flol  a pizza  ƒ^"}
+{"mode": "zero", "in": "!@user fire…", "out": "!@user fire…"}
+{"mode": "zero", "in": " \t ok ﾟ )ıi!\t!🌺x\u000b)😀a\ty é!", "out": " \t ok ﾟ )ıi!\t!🌺x\u000b)😀a\ty é!"}
+{"mode": "zero", "in": "bad ñandú\f!a_b: k\"\t'quoted'' money", "out": "bad ñandú\f!a_b: k\"\t'quoted'' money"}
+{"mode": "zero", "in": "🌺x\r*and) love 42 é is  i ﾟ'\u000b100% world \\fire&", "out": "🌺x\r*and) love 42 é is  i ﾟ'\u000b100% world \\fire&"}
+{"mode": "zero", "in": " a-b\t... 'quoted'\nY Z. i.\u000bﾟ\\\n.a包", "out": " a-b\t... 'quoted'\nY Z. i.\u000bﾟ\\\n.a包"}
+{"mode": "zero", "in": "hello…", "out": "hello…"}
+{"mode": "zero", "in": "ñandú ñandú &a-b $5 ƒ a_b　Z \t 包", "out": "ñandú ñandú &a-b $5 ƒ a_b　Z \t 包"}
+{"mode": "zero", "in": "dog \t y hello  (a) 😀 ıi\rcold !!! ... \t a-b:", "out": "dog \t y hello  (a) 😀 ıi\rcold !!! ... \t a-b:"}
+{"mode": "zero", "in": "k;", "out": "k;"}
+{"mode": "zero", "in": "-\\  you& )money;", "out": "-\\  you& )money;"}
+{"mode": "zero", "in": "ƒ ok ,__ you: lol z  __", "out": "ƒ ok ,__ you: lol z  __"}
+{"mode": "zero", "in": "!pizza\u000ba_b'  money(\nbad  lol k(  x ?...\tw　^包　包\r", "out": "!pizza\u000ba_b'  money(\nbad  lol k(  x ?...\tw　^包　包\r"}
+{"mode": "zero", "in": " ... x) 😀", "out": " ... x) 😀"}
+{"mode": "zero", "in": "Y\f🌺x  ~and? w …A  a_b\u000b😀 a包 'quoted'\rX\t? \t 'é", "out": "Y\f🌺x  ~and? w …A  a_b\u000b😀 a包 'quoted'\rX\t? \t 'é"}
+{"mode": "zero", "in": "hot  ,42", "out": "hot  ,42"}
+{"mode": "zero", "in": "great\\ cat 😀a\nzzz", "out": "great\\ cat 😀a\nzzz"}
+{"mode": "zero", "in": "pee-pee", "out": "pee-pee"}
+{"mode": "zero", "in": "good\u000bI/ 🌺x  (a) A  …world' !? '🌺x 2nd ?2nd( and;", "out": "good\u000bI/ 🌺x  (a) A  …world' !? '🌺x 2nd ?2nd( and;"}
+{"mode": "zero", "in": "cold'", "out": "cold'"}
+{"mode": "zero", "in": "y\n100% and… <d> ...\nhot&\r日本語\flol and~ :@user __", "out": "y\n100% and… <d> ...\nhot&\r日本語\flol and~ :@user __"}
+{"mode": "zero", "in": "s&m", "out": "s&m"}
+{"mode": "zero", "in": "a包\u000bY. the; OK!  ﾟ ıi  good.  /zzz \t привет money& ñandú\u000b(a)", "out": "a包\u000bY. the; OK!  ﾟ ıi  good.  /zzz \t привет money& ñandú\u000b(a)"}
+{"mode": "zero", "in": "é\" OK I ;привет 😀a!\tıi привет\\  fire", "out": "é\" OK I ;привет 😀a!\tıi привет\\  fire"}
+{"mode": "zero", "in": "$5&", "out": "$5&"}
+{"mode": "zero", "in": " i?\u000b_foo \t 7… …zzz,\tzzz &__ - <d>*", "out": " i?\u000b_foo \t 7… …zzz,\tzzz &__ - <d>*"}
+{"mode": "zero", "in": "hello\n@user A~ *ıi) /7\"\u000b*(a)  *y é(\n-  cold 1st\rcold", "out": "hello\n@user A~ *ıi) /7\"\u000b*(a)  *y é(\n-  cold 1st\rcold"}
+{"mode": "zero", "in": "is　包\fcat", "out": "is　包\fcat"}
+{"mode": "zero", "in": "breast", "out": "breast"}
+{"mode": "zero", "in": "love?", "out": "love?"}
+{"mode": "zero", "in": "Z", "out": "Z"}
+{"mode": "zero", "in": "women's", "out": "women's"}
+{"mode": "zero", "in": "a包) a包 \t \"dq\"' cold: Ok)\fA…", "out": "a包) a包 \t \"dq\"' cold: Ok)\fA…"}
+{"mode": "zero", "in": "#tag?  'quoted'", "out": "#tag?  'quoted'"}
+{"mode": "zero", "in": "^k dog* ... ?,\tmoney\n\\a_b!\u000bfire* hello　😀\\\u000b包? ", "out": "^k dog* ... ?,\tmoney\n\\a_b!\u000bfire* hello　😀\\\u000b包? "}
+{"mode": "zero", "in": " )ıi!  y bad& _foo/  'and　? 'quoted'^", "out": " )ıi!  y bad& _foo/  'and　? 'quoted'^"}
+{"mode": "zero", "in": "😀? \\you^\tpizza\r@user 包", "out": "😀? \\you^\tpizza\r@user 包"}
+{"mode": "zero", "in": "i \\lol\n)hot 7 ^i~ ^7  \\hot \t …OK", "out": "i \\lol\n)hot 7 ^i~ ^7  \\hot \t …OK"}
+{"mode": "zero", "in": "🌺x^\r:good \t a\u000bпривет\tcat\f:a\u000b\"zzz\t)X", "out": "🌺x^\r:good \t a\u000bпривет\tcat\f:a\u000b\"zzz\t)X"}
+{"mode": "zero", "in": "OK e.g. !!! hot a(\tƒ, <d>\tпривет", "out": "OK e.g. !!! hot a(\tƒ, <d>\tпривет"}
+{"mode": "zero", "in": "X and　_foo* x (y' привет a_b world\u000bZ; ,and\rfire\\", "out": "X and　_foo* x (y' привет a_b world\u000bZ; ,and\rfire\\"}
+{"mode": "zero", "in": "$5~  y 🌺x! ($5\fok^ !100% ~you-\tx ....\f日本語;\rƒ\r&ok \t ", "out": "$5~  y 🌺x! ($5\fok^ !100% ~you-\tx ....\f日本語;\rƒ\r&ok \t "}
+{"mode": "zero", "in": "good a 7^\fa-b Ok( 😀", "out": "good a 7^\fa-b Ok( 😀"}
+{"mode": "zero", "in": "\nıi ~i… pizza.\tis", "out": "\nıi ~i… pizza.\tis"}
+{"mode": "zero", "in": "#tag ;🌺x\fy 100%  y x^ 42\"", "out": "#tag ;🌺x\fy 100%  y x^ 42\""}
+{"mode": "zero", "in": "包/ .w !Y(", "out": "包/ .w !Y("}
+{"mode": "zero", "in": "lol/\t__\fY(\u000bA", "out": "lol/\t__\fY(\u000bA"}
+{"mode": "zero", "in": "@user! you  🌺x  A \"dq\"\ta z…", "out": "@user! you  🌺x  A \"dq\"\ta z…"}
+{"mode": "zero", "in": "?🌺x/ __\tis\u000bcold\r!@user\tand\tI　日本語 world\n😀a", "out": "?🌺x/ __\tis\u000bcold\r!@user\tand\tI　日本語 world\n😀a"}
+{"mode": "zero", "in": "привет", "out": "привет"}
+{"mode": "zero", "in": ":<d>' OK ñandú'　2nd 2nd ^cold? ", "out": ":<d>' OK ñandú'　2nd 2nd ^cold? "}
+{"mode": "zero", "in": "pissed", "out": "pissed"}
+{"mode": "zero", "in": "OK;\f!7 😀a  q &k 'dog\r'quoted', ﾟ lol nice!\t@user\\", "out": "OK;\f!7 😀a  q &k 'dog\r'quoted', ﾟ lol nice!\t@user\\"}
+{"mode": "zero", "in": "bigger", "out": "bigger"}
+{"mode": "zero", "in": "sixsixsix", "out": "sixsixsix"}
+{"mode": "zero", "in": "<d>\rOK. ^hello*　2nd привет\f$5 ...~\r[b]", "out": "<d>\rOK. ^hello*　2nd привет\f$5 ...~\r[b]"}
+{"mode": "zero", "in": "ok* *nice  7 {c}", "out": "ok* *nice  7 {c}"}
+{"mode": "zero", "in": "humping", "out": "humping"}
+{"mode": "zero", "in": "hot  !!! Ok* \t …love?\ncold a包", "out": "hot  !!! Ok* \t …love?\ncold a包"}
+{"mode": "zero", "in": "z^ a-b)\u000b?money\n/nice bad\flol\nzzz a '😀\f/é 'quoted'", "out": "z^ a-b)\u000b?money\n/nice bad\flol\nzzz a '😀\f/é 'quoted'"}
+{"mode": "zero", "in": "a_b\r\"!!! Y\r$5 \"Ok 日本語", "out": "a_b\r\"!!! Y\r$5 \"Ok 日本語"}
+{"mode": "zero", "in": "😀\" [b] ıi ?a hot) \t 42\\ …😀\u000b", "out": "😀\" [b] ıi ?a hot) \t 42\\ …😀\u000b"}
+{"mode": "zero", "in": "包- ıi^ ﾟ&　2nd 'é\né\nZ zzz w; bad…\rI", "out": "包- ıi^ ﾟ&　2nd 'é\né\nZ zzz w; bad…\rI"}
+{"mode": "zero", "in": "gypo", "out": "gypo"}
+{"mode": "zero", "in": "7  ñandú …_foo\t(a)/ ﾟ:\t,q", "out": "7  ñandú …_foo\t(a)/ ﾟ:\t,q"}
+{"mode": "zero", "in": "ky", "out": "ky"}
+{"mode": "zero", "in": "goddammit", "out": "goddammit"}
+{"mode": "zero", "in": "nice ƒ a привет 2nd !a包 _foo\t包", "out": "nice ƒ a привет 2nd !a包 _foo\t包"}
+{"mode": "zero", "in": "genitals", "out": "genitals"}
+{"mode": "zero", "in": "is  - 42'\ny é y the love\u000b", "out": "is  - 42'\ny é y the love\u000b"}
+{"mode": "zero", "in": "puntang", "out": "puntang"}
+{"mode": "zero", "in": "a i, Ok\r-　*world\" A　lol　'quoted'( ^nice _foo ﾟ~", "out": "a i, Ok\r-　*world\" A　lol　'quoted'( ^nice _foo ﾟ~"}
+{"mode": "zero", "in": ":bad fire <d>&\na_b　A\fand\u000bbad- cat;\u000b-/", "out": ":bad fire <d>&\na_b　A\fand\u000bbad- cat;\u000b-/"}
+{"mode": "zero", "in": "/OK~\ra包&\u000bhot/\tbad fire is:\u000b", "out": "/OK~\ra包&\u000bhot/\tbad fire is:\u000b"}
+{"mode": "zero", "in": "k\t(a)\\ [b]　cat ok 🌺x the *dog\u000bw\n\"42 /w", "out": "k\t(a)\\ [b]　cat ok 🌺x the *dog\u000bw\n\"42 /w"}
+{"mode": "zero", "in": "1st", "out": "1st"}
+{"mode": "zero", "in": "#tag", "out": "#tag"}
+{"mode": "zero", "in": "\t;world \\hello\rgreat&　z e.g. ?$5/  包 X: ,ﾟ* 🌺x", "out": "\t;world \\hello\rgreat&　z e.g. ?$5/  包 X: ,ﾟ* 🌺x"}
+{"mode": "zero", "in": "the; !a包\n__\u000b[b]? привет　cat　…- 1st a包&", "out": "the; !a包\n__\u000b[b]? привет　cat　…- 1st a包&"}
+{"mode": "zero", "in": "包 &y\\\f,k- ﾟ:　bad", "out": "包 &y\\\f,k- ﾟ:　bad"}
+{"mode": "zero", "in": "a the; \t OK\fbad\\\fa-b", "out": "a the; \t OK\fbad\\\fa-b"}
+{"mode": "zero", "in": "🌺x, ", "out": "🌺x, "}
+{"mode": "zero", "in": "Ok\nzzz- 7 \t 日本語\u000b?包… {c}", "out": "Ok\nzzz- 7 \t 日本語\u000b?包… {c}"}
+{"mode": "zero", "in": "z ? <d> 1st\tcat \t !!! ", "out": "z ? <d> 1st\tcat \t !!! "}
+{"mode": "zero", "in": "\"42 a-b( the /q 😀a\" &fire? i)", "out": "\"42 a-b( the /q 😀a\" &fire? i)"}
+{"mode": "zero", "in": "Y )Ok\t(<d>. w; ,hot 1st 😀", "out": "Y )Ok\t(<d>. w; ,hot 1st 😀"}
+{"mode": "zero", "in": "macaca", "out": "macaca"}
+{"mode": "zero", "in": "$5, X^ ?is hello", "out": "$5, X^ ?is hello"}
+{"mode": "zero", "in": "Ok \t z\\  1st ;$5 \t ok( pizza!", "out": "Ok \t z\\  1st ;$5 \t ok( pizza!"}
+{"mode": "zero", "in": "[b]!", "out": "[b]!"}
+{"mode": "zero", "in": "\t?bad^ a包\r?_foo/", "out": "\t?bad^ a包\r?_foo/"}
+{"mode": "max", "in": "Hello World", "out": " 💰💰Hello 💰💰 World"}
+{"mode": "max", "in": "hello  world", "out": " 💰💰hello 💰💰  world"}
+{"mode": "max", "in": "  leading", "out": " 💰💰  leading"}
+{"mode": "max", "in": "trailing  ", "out": " 🚫🚫trailing  "}
+{"mode": "max", "in": "", "out": ""}
+{"mode": "max", "in": "a", "out": " 💰💰a"}
+{"mode": "max", "in": "  ", "out": "  "}
+{"mode": "max", "in": "!!!", "out": "!!!"}
+{"mode": "max", "in": "...hello...", "out": " 💰💰...hello..."}
+{"mode": "max", "in": "\"a\"", "out": " 💰💰\"a\""}
+{"mode": "max", "in": "(b)", "out": " 💰💰(b)"}
+{"mode": "max", "in": "_c_", "out": "_c_"}
+{"mode": "max", "in": "1 2 3", "out": " 🥇🥇1 🕐🕐 2 💯💯 3"}
+{"mode": "max", "in": "x y z", "out": "x 💰💰 y 😂😂 z"}
+{"mode": "max", "in": "I love you", "out": " 👁👁I 💰💰 love 💰💰 you"}
+{"mode": "max", "in": "a\tb\nc", "out": " 💰💰a 💰💰\tb 💓💓\nc"}
+{"mode": "max", "in": "é a", "out": "é 💰💰 a"}
+{"mode": "max", "in": "a é", "out": " 💰💰a é"}
+{"mode": "max", "in": ":is \\🌺x ?\\\fx\u000band~ ?a_b ;#tag; ñandú #tag;  😀a/", "out": " 👁👁:is \\🌺x ?\\\fx 💰💰\u000band~ 💰💰 ?a_b 🚫🚫 ;#tag; 💰💰 ñandú 🚫🚫 #tag; 💰💰  😀a/"}
+{"mode": "max", "in": "42 hot: 包 e.g.", "out": " 💦💦42 💰💰 hot: 包 🅰🅰 e.g."}
+{"mode": "max", "in": "<d>\"　,lol <d> Z\r?a包 \t the A\t'[b]", "out": " 💰💰<d>\"　,lol 💰💰 <d> 😂😂 Z 💰💰\r?a包 🚫🚫 \t the 💰💰 A 💰💰\t'[b]"}
+{"mode": "max", "in": "bad 'quoted' Ok.\r$5) \t e.g.! \t :Ok *k*　\"dq\"*\u000bıi  :ok:\u000b!!!", "out": " 💰💰bad 'quoted' 💰💰 Ok. ✋✋\r$5) 🅰🅰 \t e.g.! 💰💰 \t :Ok 💰💰 *k*　\"dq\"* 👁👁\u000bıi 💰💰  :ok:\u000b!!!"}
+{"mode": "max", "in": "murder", "out": " 💘💘murder"}
+{"mode": "max", "in": " ;dog(\tY: (love", "out": " 💰💰 ;dog( 💰💰\tY: 💰💰 (love"}
+{"mode": "max", "in": "?good I\n? \t world　包\u000b😀 Z\t@user !ﾟ \t 100%! …X", "out": " 💰💰?good 👁👁 I\n? 💰💰 \t world　包\u000b😀 😂😂 Z 🤗🤗\t@user !ﾟ 🥇🥇 \t 100%! …X"}
+{"mode": "max", "in": "puss", "out": " 🚨🚨puss"}
+{"mode": "max", "in": "Ok @user\f🌺x {c}\u000b\"dq\",\r!X A& \t nice Ok' a_b\rbad", "out": " 💰💰Ok 🤗🤗 @user\f🌺x 💓💓 {c} 💰💰\u000b\"dq\",\r!X 💰💰 A& 💰💰 \t nice Ok' 💰💰 a_b 💰💰\rbad"}
+{"mode": "max", "in": "-bad", "out": " 💰💰-bad"}
+{"mode": "max", "in": "{c} ﾟ　)日本語, the\tıi &ok ﾟ is\\ lol Z 7　#tag)", "out": " 💓💓{c} ﾟ　)日本語, 🚫🚫 the 👁👁\tıi 💰💰 &ok ﾟ 👁👁 is\\ 💰💰 lol 😂😂 Z 💯💯 7　#tag)"}
+{"mode": "max", "in": "日本語 \"dq\"\n~!!!(\f/dog <d> ^{c} a包\n;🌺x \t hello", "out": "日本語 💰💰 \"dq\"\n~!!!( 💰💰\f/dog 💰💰 <d> 💓💓 ^{c} 💰💰 a包\n;🌺x 💰💰 \t hello"}
+{"mode": "max", "in": "a ?é*  ~you 'quoted'\n#tag'", "out": " 💰💰a ?é* 💰💰  ~you 👏👏 'quoted' 🚫🚫\n#tag'"}
+{"mode": "max", "in": "ıi\"\t'...^\n)z /-;\rlol)\ndog\tis\rzzz\n_foo", "out": " 👁👁ıi\"\t'...^ 😂😂\n)z /-; 💰💰\rlol) 💰💰\ndog 👁👁\tis 😂😂\rzzz\n_foo"}
+{"mode": "max", "in": "Z 😀a-", "out": " 😂😂Z 💰💰 😀a-"}
+{"mode": "max", "in": "1st ^... \\OK\u000b&I", "out": " 🥇🥇1st ^... 💰💰 \\OK 👁👁\u000b&I"}
+{"mode": "max", "in": "~world \t you\t😀; I,\rmoney", "out": " 💰💰~world 💰💰 \t you\t😀; 👁👁 I, 💘💘\rmoney"}
+{"mode": "max", "in": "fire 日本語\rlove w\f,fire　!!!", "out": " ♂♂fire 日本語 💰💰\rlove 💰💰 w ♂♂\f,fire　!!!"}
+{"mode": "max", "in": "&good&\fé a-b\\ {c}; \t ^1st\f_foo a包", "out": " 💰💰&good& 💰💰\fé a-b\\ 💓💓 {c}; 🥇🥇 \t ^1st\f_foo a包"}
+{"mode": "max", "in": "1st\ne.g.; \t cat \"dq\"\tw*", "out": " 🥇🥇1st 🅰🅰\ne.g.; 💓💓 \t cat \"dq\" 💰💰\tw*"}
+{"mode": "max", "in": "\\cold (a)/ a包 ok? the'\n_foo", "out": " 💓💓\\cold 💰💰 (a)/ 💰💰 a包 💰💰 ok? 🚫🚫 the'\n_foo"}
+{"mode": "max", "in": "привет\nlol: pizza &[b]\t/a-b Ok \t is #tag /a包,", "out": "привет 💰💰\nlol: 🚨🚨 pizza 💰💰 &[b] 💰💰\t/a-b Ok 👁👁 \t is 🚫🚫 #tag 💰💰 /a包,"}
+{"mode": "max", "in": "good\r&k\t;hot\r\"#tag-　ñandú\\\u000bw-　(a)*\t1st OK& Y\nñandú 1st\"", "out": " 💰💰good 💰💰\r&k 💰💰\t;hot 🚫🚫\r\"#tag-　ñandú\\ 💰💰\u000bw-　(a)* 🥇🥇\t1st 💰💰 OK& 💰💰 Y 💰💰\nñandú 🥇🥇 1st\""}
+{"mode": "max", "in": "#tag* \t …a包\" Ok　great/\u000bI) 7 the\u000b-\"", "out": " 🚫🚫#tag* 💰💰 \t …a包\" 💰💰 Ok　great/ 👁👁\u000bI) 💯💯 7 the\u000b-\""}
+{"mode": "max", "in": "love!\u000band\" __  a/\u000b包-", "out": " 💰💰love! 💰💰\u000band\" __ 💰💰  a/\u000b包-"}
+{"mode": "max", "in": "?a_b(\t;hello\fe.g.", "out": " 💰💰?a_b( 💰💰\t;hello 🅰🅰\fe.g."}
+{"mode": "max", "in": "rosy palm and her 5 sisters", "out": " 💰💰rosy 🚨🚨 palm 💰💰 and 💰💰 her ✋✋ 5 👑👑 sisters"}
+{"mode": "max", "in": "the& ^the, @user;\rgreat [b] w\u000b42 ... ﾟ 100%^\f日本語 包", "out": " 🚫🚫the& 🚫🚫 ^the, 🤗🤗 @user; 💰💰\rgreat 💰💰 [b] 💰💰 w 💦💦\u000b42 ... ﾟ 🥇🥇 100%^\f日本語 包"}
+{"mode": "max", "in": "é\\\t$5 \t w! \t x\r(Y* hello-\n~w　q:  _foo \"dq\"", "out": "é\\ ✋✋\t$5 💰💰 \t w! \t x 💰💰\r(Y* 💰💰 hello- 💰💰\n~w　q:  _foo 💰💰 \"dq\""}
+{"mode": "max", "in": "niggor", "out": " 💰💰niggor"}
+{"mode": "max", "in": "$5…\fa-b\f7　ñandú dog* X? [b]  日本語 Ok 'quoted'& -X pizza", "out": " ✋✋$5… 💰💰\fa-b 💯💯\f7　ñandú 💰💰 dog* X? 💰💰 [b]  日本語 💰💰 Ok 👏👏 'quoted'& -X 🚨🚨 pizza"}
+{"mode": "max", "in": " привет- Y", "out": " привет- 💰💰 Y"}
+{"mode": "max", "in": "42　love\rX\ta_b\u000blove& Z\"\na-b　.😀a ;'quoted' привет  'привет", "out": " 💦💦42　love\rX 💰💰\ta_b 💰💰\u000blove& 😂😂 Z\" 💰💰\na-b　.😀a 👏👏 ;'quoted' привет  'привет"}
+{"mode": "max", "in": "é\\", "out": "é\\"}
+{"mode": "max", "in": "ƒ\u000bworld\tI\\\u000bbad… ñandú a.\u000b…fire! love zzz", "out": "ƒ 💰💰\u000bworld 👁👁\tI\\ 💰💰\u000bbad… 💰💰 ñandú 💰💰 a. ♂♂\u000b…fire! 💰💰 love 😂😂 zzz"}
+{"mode": "max", "in": "kaffre", "out": " 💰💰kaffre"}
+{"mode": "max", "in": "k -\rthe　'日本語\"\u000bpizza\ty\u000b100%…  k' \t 'quoted';", "out": " 💰💰k - 🚫🚫\rthe　'日本語\" 🚨🚨\u000bpizza 💰💰\ty 🥇🥇\u000b100%… 💰💰  k' 👏👏 \t 'quoted';"}
+{"mode": "max", "in": "die", "out": " 💰💰die"}
+{"mode": "max", "in": "and nice\nıi", "out": " 💰💰and 💰💰 nice 👁👁\nıi"}
+{"mode": "max", "in": "a包: good 包 you a-b 🌺x .\"dq\"!\r😀a\u000b'I& &__ 🌺x", "out": " 💰💰a包: good 包 💰💰 you 💰💰 a-b 🌺x 💰💰 .\"dq\"! 💰💰\r😀a 👁👁\u000b'I& &__ 🌺x"}
+{"mode": "max", "in": "the: world\u000b*...: world", "out": " 🚫🚫the: 💰💰 world\u000b*...: 💰💰 world"}
+{"mode": "max", "in": "I great ok ? ok .- é'\u000bX &?", "out": " 👁👁I 💰💰 great 💰💰 ok ? 💰💰 ok .- é'\u000bX &?"}
+{"mode": "max", "in": " …\"dq\"　lol 100%  __", "out": " 💰💰 …\"dq\"　lol 🥇🥇 100%  __"}
+{"mode": "max", "in": "slant", "out": " 👑👑slant"}
+{"mode": "max", "in": "<d> <d>\f'quoted' ﾟ", "out": " 💰💰<d> 💰💰 <d> 👏👏\f'quoted' ﾟ"}
+{"mode": "max", "in": " 2nd\fbad! dog( 'quoted', cold/\u000b2nd  ıi dog\\\t\\包", "out": " 🕐🕐 2nd 💰💰\fbad! 💰💰 dog( 'quoted', 💓💓 cold/ 🕐🕐\u000b2nd 👁👁  ıi 💰💰 dog\\\t\\包"}
+{"mode": "max", "in": "hot ,42 bad Ok\ngreat*\u000bI)\tq　dog\u000bhello\\ nice -y a", "out": " 💰💰hot 💦💦 ,42 💰💰 bad 💰💰 Ok 💰💰\ngreat* 👁👁\u000bI) 👏👏\tq　dog 💰💰\u000bhello\\ 💰💰 nice 💰💰 -y 💰💰 a"}
+{"mode": "max", "in": "lol?", "out": " 💰💰lol?"}
+{"mode": "max", "in": "&hot y/ \\a!\t\"great^", "out": " 💰💰&hot 💰💰 y/ \\a! 💰💰\t\"great^"}
+{"mode": "max", "in": "floo", "out": " ♂♂floo"}
+{"mode": "max", "in": "bad a-b 🌺x\n100%", "out": " 💰💰bad 💰💰 a-b 🌺x 🥇🥇\n100%"}
+{"mode": "max", "in": "/money [b] \t hot\u000bzzz", "out": " 💘💘/money [b] 💰💰 \t hot 😂😂\u000bzzz"}
+{"mode": "max", "in": "nice ıi ñandú _foo-\rx… .love I", "out": " 💰💰nice 👁👁 ıi ñandú _foo-\rx… 💰💰 .love 👁👁 I"}
+{"mode": "max", "in": "k cold~ great\tmoney \t …y ƒ a-b *Z Y( &🌺x", "out": " 💰💰k 💓💓 cold~ 💰💰 great 💘💘\tmoney 💰💰 \t …y ƒ 💰💰 a-b 😂😂 *Z 💰💰 Y( &🌺x"}
+{"mode": "max", "in": " #tag\u000b&包) *100%\" bad …(a)-\n'quoted'\n*100% and love -… ?? _foo!", "out": " 🚫🚫 #tag\u000b&包) 🥇🥇 *100%\" 💰💰 bad 💰💰 …(a)- 👏👏\n'quoted' 🥇🥇\n*100% 💰💰 and love -… ?? _foo!"}
+{"mode": "max", "in": "(@user w \t zzz good' ıi\f^包", "out": " 🤗🤗(@user w 😂😂 \t zzz 💰💰 good' 👁👁 ıi\f^包"}
+{"mode": "max", "in": "日本語 A\rpizza Y cat 2nd é: /a包 \t 包 …w", "out": "日本語 💰💰 A 🚨🚨\rpizza 💰💰 Y 💓💓 cat 🕐🕐 2nd é: 💰💰 /a包 \t 包 💰💰 …w"}
+{"mode": "max", "in": "'!!!… \"money\" ﾟ\" Ok\rok\rfire", "out": "'!!!… 💘💘 \"money\" ﾟ\" 💰💰 Ok 💰💰\rok ♂♂\rfire"}
+{"mode": "max", "in": "pizza; w cat", "out": " 🚨🚨pizza; 💰💰 w 💓💓 cat"}
+{"mode": "max", "in": "Z the 2nd\fq (a)\fñandú\r_foo", "out": " 😂😂Z 🚫🚫 the 🕐🕐 2nd 👏👏\fq 💰💰 (a) 💰💰\fñandú\r_foo"}
+{"mode": "max", "in": "2nd\u000bbad, *42 🌺x- love \t pizza\f-\\ {c},", "out": " 🕐🕐2nd 💰💰\u000bbad, 💦💦 *42 🌺x- 💰💰 love 🚨🚨 \t pizza\f-\\ 💓💓 {c},"}
+{"mode": "max", "in": "fungus", "out": " ♂♂fungus"}
+{"mode": "max", "in": "Ok", "out": " 💰💰Ok"}
+{"mode": "max", "in": "love/", "out": " 💰💰love/"}
+{"mode": "max", "in": "zzz\t\\good! ıi", "out": " 😂😂zzz 💰💰\t\\good! 👁👁 ıi"}
+{"mode": "max", "in": "fire привет( ,ıi X* [b]\t-日本語/\flove\nƒ\f1st? é", "out": " ♂♂fire привет( 👁👁 ,ıi X* 💰💰 [b]\t-日本語/ 💰💰\flove\nƒ 🥇🥇\f1st? é"}
+{"mode": "max", "in": "playboy", "out": " 🚨🚨playboy"}
+{"mode": "max", "in": "fingerfucked ", "out": " ♂♂fingerfucked "}
+{"mode": "max", "in": ":- Y  \"Z …bad　\"dq\"&\r;a包\rI; z Y\ny Y", "out": ":- 💰💰 Y 😂😂  \"Z …bad　\"dq\"& 💰💰\r;a包 👁👁\rI; 😂😂 z 💰💰 Y 💰💰\ny 💰💰 Y"}
+{"mode": "max", "in": "ƒ \t good\n…A; :w&　-　?\fhot^ I *money/", "out": "ƒ 💰💰 \t good 💰💰\n…A; 💰💰 :w&　-　? 💰💰\fhot^ 👁👁 I 💘💘 *money/"}
+{"mode": "max", "in": " ƒ' \"dq\"-\nlol' )ıi w  hello", "out": " ƒ' 💰💰 \"dq\"- 💰💰\nlol' 👁👁 )ıi 💰💰 w 💰💰  hello"}
+{"mode": "max", "in": " \t ;\"dq\"- 日本語?\tz'\rcold ,world\fq/\u000b42 a^ (a): 😀", "out": " 💰💰 \t ;\"dq\"- 日本語? 😂😂\tz' 💓💓\rcold 💰💰 ,world 👏👏\fq/ 💦💦\u000b42 💰💰 a^ 💰💰 (a): 😀"}
+{"mode": "max", "in": "?zzz\rñandú: …nice　lol! \\2nd' I,", "out": " 😂😂?zzz 💰💰\rñandú: 💰💰 …nice　lol! 🕐🕐 \\2nd' 👁👁 I,"}
+{"mode": "max", "in": "cocky", "out": " 💓💓cocky"}
+{"mode": "max", "in": "\f~dog  i Z 😀 \t ", "out": " 💰💰\f~dog 👁👁  i 😂😂 Z 😀 \t "}
+{"mode": "max", "in": "日本語 <d>*", "out": "日本語 💰💰 <d>*"}
+{"mode": "max", "in": "... x\\  {c}\f\"is\nhello　ok  ﾟ\t,dog.\n日本語", "out": "... x\\ 💓💓  {c} 👁👁\f\"is 💰💰\nhello　ok  ﾟ 💰💰\t,dog.\n日本語"}
+{"mode": "max", "in": "lol!", "out": " 💰💰lol!"}
+{"mode": "max", "in": "'quoted'\rY ıi 日本語 i cat ok ,money\f*Z world (and ", "out": " 👏👏'quoted' 💰💰\rY 👁👁 ıi 日本語 👁👁 i 💓💓 cat ok 💘💘 ,money 😂😂\f*Z 💰💰 world 💰💰 (and "}
+{"mode": "max", "in": "Y\\\t?& \t @user $5 !?\fis/ *ñandú $5　bad k^ !!! q", "out": " 💰💰Y\\\t?& 🤗🤗 \t @user ✋✋ $5 !? 👁👁\fis/ 💰💰 *ñandú ✋✋ $5　bad k^ !!! 👏👏 q"}
+{"mode": "max", "in": "i good /bad 100%\u000b!包/ A good) bad(\n😀a) money hot", "out": " 👁👁i 💰💰 good 💰💰 /bad 🥇🥇 100%\u000b!包/ 💰💰 A 💰💰 good) 💰💰 bad( 💰💰\n😀a) 💘💘 money 💰💰 hot"}
+{"mode": "max", "in": "shitfull", "out": " 👑👑shitfull"}
+{"mode": "max", "in": "money\"\r.#tag fire/ \t 1st 7~\rZ é \"bad bad'", "out": " 💘💘money\" 🚫🚫\r.#tag ♂♂ fire/ 🥇🥇 \t 1st 💯💯 7~ 😂😂\rZ é 💰💰 \"bad 💰💰 bad'"}
+{"mode": "max", "in": "love　cat", "out": " 💰💰love　cat"}
+{"mode": "max", "in": "😀 love q\tz\" _foo 🌺x A", "out": "😀 💰💰 love 👏👏 q 😂😂\tz\" _foo 🌺x 💰💰 A"}
+{"mode": "max", "in": "(a)… )1st　and @user  love zzz\fdog- w(", "out": " 💰💰(a)… 🥇🥇 )1st　and 🤗🤗 @user 💰💰  love zzz 💰💰\fdog- 💰💰 w("}
+{"mode": "max", "in": "　money\t{c}, dog' ﾟ a_b… 😀a A?", "out": " 💘💘　money 💓💓\t{c}, 💰💰 dog' 💰💰 ﾟ a_b… 😀a 💰💰 A?"}
+{"mode": "max", "in": "crappy", "out": " 💓💓crappy"}
+{"mode": "max", "in": "kum", "out": " 💰💰kum"}
+{"mode": "max", "in": " nice <d>\r<d>  \"dq\"& ıi! {c}\r,?… \"cat\u000b__* (_foo　z _foo", "out": " 💰💰 nice 💰💰 <d> 💰💰\r<d> 💰💰  \"dq\"& 👁👁 ıi! 💓💓 {c}\r,?… 💓💓 \"cat\u000b__* (_foo　z _foo"}
+{"mode": "max", "in": "blonde action", "out": " 💰💰blonde 💰💰 action"}
+{"mode": "max", "in": "-fire?\flol  a pizza  ƒ^", "out": " ♂♂-fire? 💰💰\flol 💰💰  a 🚨🚨 pizza  ƒ^"}
+{"mode": "max", "in": "!@user fire…", "out": " 🤗🤗!@user ♂♂ fire…"}
+{"mode": "max", "in": " \t ok ﾟ )ıi!\t!🌺x\u000b)😀a\ty é!", "out": " 💰💰 \t ok ﾟ 👁👁 )ıi!\t!🌺x 💰💰\u000b)😀a 💰💰\ty é!"}
+{"mode": "max", "in": "bad ñandú\f!a_b: k\"\t'quoted'' money", "out": " 💰💰bad 💰💰 ñandú 💰💰\f!a_b: 💰💰 k\" 👏👏\t'quoted'' 💘💘 money"}
+{"mode": "max", "in": "🌺x\r*and) love 42 é is  i ﾟ'\u000b100% world \\fire&", "out": "🌺x 💰💰\r*and) love 💦💦 42 é 👁👁 is 👁👁  i ﾟ' 🥇🥇\u000b100% world ♂♂ \\fire&"}
+{"mode": "max", "in": " a-b\t... 'quoted'\nY Z. i.\u000bﾟ\\\n.a包", "out": " 💰💰 a-b\t... 👏👏 'quoted' 💰💰\nY 😂😂 Z. 👁👁 i.\u000bﾟ\\ 💰💰\n.a包"}
+{"mode": "max", "in": "hello…", "out": " 💰💰hello…"}
+{"mode": "max", "in": "ñandú ñandú &a-b $5 ƒ a_b　Z \t 包", "out": " 💰💰ñandú ñandú &a-b ✋✋ $5 ƒ 💰💰 a_b　Z \t 包"}
+{"mode": "max", "in": "dog \t y hello  (a) 😀 ıi\rcold !!! ... \t a-b:", "out": " 💰💰dog 💰💰 \t y 💰💰 hello 💰💰  (a) 😀 👁👁 ıi 💓💓\rcold !!! ... 💰💰 \t a-b:"}
+{"mode": "max", "in": "k;", "out": " 💰💰k;"}
+{"mode": "max", "in": "-\\  you& )money;", "out": "-\\ 💰💰  you& 💘💘 )money;"}
+{"mode": "max", "in": "ƒ ok ,__ you: lol z  __", "out": "ƒ 💰💰 ok ,__ 💰💰 you: 💰💰 lol 😂😂 z  __"}
+{"mode": "max", "in": "!pizza\u000ba_b'  money(\nbad  lol k(  x ?...\tw　^包　包\r", "out": " 🚨🚨!pizza 💰💰\u000ba_b' 💘💘  money( 💰💰\nbad 💰💰  lol 💰💰 k(  x ?... 💰💰\tw　^包　包\r"}
+{"mode": "max", "in": " ... x) 😀", "out": " ... x) 😀"}
+{"mode": "max", "in": "Y\f🌺x  ~and? w …A  a_b\u000b😀 a包 'quoted'\rX\t? \t 'é", "out": " 💰💰Y\f🌺x 💰💰  ~and? 💰💰 w 💰💰 …A 💰💰  a_b\u000b😀 💰💰 a包 👏👏 'quoted'\rX\t? \t 'é"}
+{"mode": "max", "in": "hot  ,42", "out": " 💰💰hot 💦💦  ,42"}
+{"mode": "max", "in": "great\\ cat 😀a\nzzz", "out": " 💰💰great\\ 💓💓 cat 💰💰 😀a 😂😂\nzzz"}
+{"mode": "max", "in": "pee-pee", "out": " 🚨🚨pee-pee"}
+{"mode": "max", "in": "good\u000bI/ 🌺x  (a) A  …world' !? '🌺x 2nd ?2nd( and;", "out": " 💰💰good 👁👁\u000bI/ 🌺x 💰💰  (a) 💰💰 A 💰💰  …world' !? '🌺x 🕐🕐 2nd 🕐🕐 ?2nd( 💰💰 and;"}
+{"mode": "max", "in": "cold'", "out": " 💓💓cold'"}
+{"mode": "max", "in": "y\n100% and… <d> ...\nhot&\r日本語\flol and~ :@user __", "out": " 💰💰y 🥇🥇\n100% 💰💰 and… 💰💰 <d> ... 💰💰\nhot&\r日本語 💰💰\flol and~ 🤗🤗 :@user __"}
+{"mode": "max", "in": "s&m", "out": " 👑👑s&m"}
+{"mode": "max", "in": "a包\u000bY. the; OK!  ﾟ ıi  good.  /zzz \t привет money& ñandú\u000b(a)", "out": " 💰💰a包 💰💰\u000bY. 🚫🚫 the; 💰💰 OK! 👁👁  ﾟ ıi 💰💰  good. 😂😂  /zzz \t привет 💘💘 money& 💰💰 ñandú 💰💰\u000b(a)"}
+{"mode": "max", "in": "é\" OK I ;привет 😀a!\tıi привет\\  fire", "out": "é\" 💰💰 OK 👁👁 I ;привет 💰💰 😀a! 👁👁\tıi привет\\ ♂♂  fire"}
+{"mode": "max", "in": "$5&", "out": " ✋✋$5&"}
+{"mode": "max", "in": " i?\u000b_foo \t 7… …zzz,\tzzz &__ - <d>*", "out": " 👁👁 i?\u000b_foo 💯💯 \t 7… 😂😂 …zzz, 😂😂\tzzz &__ 💰💰 - <d>*"}
+{"mode": "max", "in": "hello\n@user A~ *ıi) /7\"\u000b*(a)  *y é(\n-  cold 1st\rcold", "out": " 💰💰hello 🤗🤗\n@user 💰💰 A~ 👁👁 *ıi) 💯💯 /7\" 💰💰\u000b*(a) 💰💰  *y é(\n- 💓💓  cold 🥇🥇 1st 💓💓\rcold"}
+{"mode": "max", "in": "is　包\fcat", "out": " 👁👁is　包 💓💓\fcat"}
+{"mode": "max", "in": "breast", "out": " 💰💰breast"}
+{"mode": "max", "in": "love?", "out": " 💰💰love?"}
+{"mode": "max", "in": "Z", "out": " 😂😂Z"}
+{"mode": "max", "in": "women's", "out": " 💰💰women's"}
+{"mode": "max", "in": "a包) a包 \t \"dq\"' cold: Ok)\fA…", "out": " 💰💰a包) 💰💰 a包 💰💰 \t \"dq\"' 💓💓 cold: 💰💰 Ok) 💰💰\fA…"}
+{"mode": "max", "in": "#tag?  'quoted'", "out": " 🚫🚫#tag? 👏👏  'quoted'"}
+{"mode": "max", "in": "^k dog* ... ?,\tmoney\n\\a_b!\u000bfire* hello　😀\\\u000b包? ", "out": " 💰💰^k 💰💰 dog* ... ?, 💘💘\tmoney 💰💰\n\\a_b! ♂♂\u000bfire* 💰💰 hello　😀\\\u000b包? "}
+{"mode": "max", "in": " )ıi!  y bad& _foo/  'and　? 'quoted'^", "out": " 👁👁 )ıi! 💰💰  y 💰💰 bad& _foo/ 💰💰  'and　? 👏👏 'quoted'^"}
+{"mode": "max", "in": "😀? \\you^\tpizza\r@user 包", "out": "😀? 💰💰 \\you^ 🚨🚨\tpizza 🤗🤗\r@user 包"}
+{"mode": "max", "in": "i \\lol\n)hot 7 ^i~ ^7  \\hot \t …OK", "out": " 👁👁i 💰💰 \\lol 💰💰\n)hot 💯💯 7 👁👁 ^i~ 💯💯 ^7 💰💰  \\hot 💰💰 \t …OK"}
+{"mode": "max", "in": "🌺x^\r:good \t a\u000bпривет\tcat\f:a\u000b\"zzz\t)X", "out": "🌺x^ 💰💰\r:good 💰💰 \t a\u000bпривет 💓💓\tcat 💰💰\f:a 😂😂\u000b\"zzz\t)X"}
+{"mode": "max", "in": "OK e.g. !!! hot a(\tƒ, <d>\tпривет", "out": " 💰💰OK 🅰🅰 e.g. 💰💰 !!! hot 💰💰 a(\tƒ, 💰💰 <d>\tпривет"}
+{"mode": "max", "in": "X and　_foo* x (y' привет a_b world\u000bZ; ,and\rfire\\", "out": "X and　_foo* x 💰💰 (y' 💰💰 привет a_b 💰💰 world 😂😂\u000bZ; 💰💰 ,and ♂♂\rfire\\"}
+{"mode": "max", "in": "$5~  y 🌺x! ($5\fok^ !100% ~you-\tx ....\f日本語;\rƒ\r&ok \t ", "out": " ✋✋$5~ 💰💰  y 🌺x! ($5 💰💰\fok^ 🥇🥇 !100% 💰💰 ~you-\tx ....\f日本語;\rƒ 💰💰\r&ok \t "}
+{"mode": "max", "in": "good a 7^\fa-b Ok( 😀", "out": " 💰💰good 💰💰 a 💯💯 7^ 💰💰\fa-b 💰💰 Ok( 😀"}
+{"mode": "max", "in": "\nıi ~i… pizza.\tis", "out": " 👁👁\nıi 👁👁 ~i… 🚨🚨 pizza. 👁👁\tis"}
+{"mode": "max", "in": "#tag ;🌺x\fy 100%  y x^ 42\"", "out": " 🚫🚫#tag ;🌺x 💰💰\fy 100% 💰💰  y x^ 💦💦 42\""}
+{"mode": "max", "in": "包/ .w !Y(", "out": "包/ 💰💰 .w 💰💰 !Y("}
+{"mode": "max", "in": "lol/\t__\fY(\u000bA", "out": " 💰💰lol/\t__ 💰💰\fY( 💰💰\u000bA"}
+{"mode": "max", "in": "@user! you  🌺x  A \"dq\"\ta z…", "out": " 🤗🤗@user! 💰💰 you  🌺x 💰💰  A 💰💰 \"dq\" 💰💰\ta 😂😂 z…"}
+{"mode": "max", "in": "?🌺x/ __\tis\u000bcold\r!@user\tand\tI　日本語 world\n😀a", "out": "?🌺x/ __ 👁👁\tis 💓💓\u000bcold 🤗🤗\r!@user 💰💰\tand 👁👁\tI　日本語 💰💰 world 💰💰\n😀a"}
+{"mode": "max", "in": "привет", "out": "привет"}
+{"mode": "max", "in": ":<d>' OK ñandú'　2nd 2nd ^cold? ", "out": " 💰💰:<d>' 💰💰 OK 💰💰 ñandú'　2nd 🕐🕐 2nd 💓💓 ^cold? "}
+{"mode": "max", "in": "pissed", "out": " 🚨🚨pissed"}
+{"mode": "max", "in": "OK;\f!7 😀a  q &k 'dog\r'quoted', ﾟ lol nice!\t@user\\", "out": " 💰💰OK; 💯💯\f!7 💰💰 😀a 👏👏  q &k 💰💰 'dog 👏👏\r'quoted', ﾟ 💰💰 lol 💰💰 nice! 🤗🤗\t@user\\"}
+{"mode": "max", "in": "bigger", "out": " 💰💰bigger"}
+{"mode": "max", "in": "sixsixsix", "out": " 👑👑sixsixsix"}
+{"mode": "max", "in": "<d>\rOK. ^hello*　2nd привет\f$5 ...~\r[b]", "out": " 💰💰<d> 💰💰\rOK. 💰💰 ^hello*　2nd привет ✋✋\f$5 ...~ 💰💰\r[b]"}
+{"mode": "max", "in": "ok* *nice  7 {c}", "out": " 💰💰ok* 💰💰 *nice 💯💯  7 💓💓 {c}"}
+{"mode": "max", "in": "humping", "out": " 💰💰humping"}
+{"mode": "max", "in": "hot  !!! Ok* \t …love?\ncold a包", "out": " 💰💰hot  !!! 💰💰 Ok* 💰💰 \t …love? 💓💓\ncold 💰💰 a包"}
+{"mode": "max", "in": "z^ a-b)\u000b?money\n/nice bad\flol\nzzz a '😀\f/é 'quoted'", "out": " 😂😂z^ 💰💰 a-b) 💘💘\u000b?money 💰💰\n/nice 💰💰 bad 💰💰\flol 😂😂\nzzz 💰💰 a '😀\f/é 👏👏 'quoted'"}
+{"mode": "max", "in": "a_b\r\"!!! Y\r$5 \"Ok 日本語", "out": " 💰💰a_b 💰💰\r\"!!! Y ✋✋\r$5 💰💰 \"Ok 日本語"}
+{"mode": "max", "in": "😀\" [b] ıi ?a hot) \t 42\\ …😀\u000b", "out": " 💰💰😀\" [b] 👁👁 ıi 💰💰 ?a 💰💰 hot) 💦💦 \t 42\\ …😀\u000b"}
+{"mode": "max", "in": "包- ıi^ ﾟ&　2nd 'é\né\nZ zzz w; bad…\rI", "out": "包- 👁👁 ıi^ 🕐🕐 ﾟ&　2nd 'é\né 😂😂\nZ 😂😂 zzz 💰💰 w; 💰💰 bad… 👁👁\rI"}
+{"mode": "max", "in": "gypo", "out": " 💰💰gypo"}
+{"mode": "max", "in": "7  ñandú …_foo\t(a)/ ﾟ:\t,q", "out": " 💯💯7 💰💰  ñandú …_foo 💰💰\t(a)/ ﾟ: 👏👏\t,q"}
+{"mode": "max", "in": "ky", "out": " 💰💰ky"}
+{"mode": "max", "in": "goddammit", "out": " 💰💰goddammit"}
+{"mode": "max", "in": "nice ƒ a привет 2nd !a包 _foo\t包", "out": " 💰💰nice 💰💰 ƒ a привет 🕐🕐 2nd 💰💰 !a包 _foo\t包"}
+{"mode": "max", "in": "genitals", "out": " 💰💰genitals"}
+{"mode": "max", "in": "is  - 42'\ny é y the love\u000b", "out": " 👁👁is  - 💦💦 42' 💰💰\ny é 💰💰 y 🚫🚫 the 💰💰 love\u000b"}
+{"mode": "max", "in": "puntang", "out": " 🚨🚨puntang"}
+{"mode": "max", "in": "a i, Ok\r-　*world\" A　lol　'quoted'( ^nice _foo ﾟ~", "out": " 💰💰a 👁👁 i, 💰💰 Ok 💰💰\r-　*world\" 💰💰 A　lol　'quoted'( 💰💰 ^nice _foo ﾟ~"}
+{"mode": "max", "in": ":bad fire <d>&\na_b　A\fand\u000bbad- cat;\u000b-/", "out": " 💰💰:bad ♂♂ fire 💰💰 <d>& 💰💰\na_b　A 💰💰\fand 💰💰\u000bbad- 💓💓 cat;\u000b-/"}
+{"mode": "max", "in": "/OK~\ra包&\u000bhot/\tbad fire is:\u000b", "out": " 💰💰/OK~ 💰💰\ra包& 💰💰\u000bhot/ 💰💰\tbad ♂♂ fire 👁👁 is:\u000b"}
+{"mode": "max", "in": "k\t(a)\\ [b]　cat ok 🌺x the *dog\u000bw\n\"42 /w", "out": " 💰💰k 💰💰\t(a)\\ 💰💰 [b]　cat 💰💰 ok 🌺x 🚫🚫 the 💰💰 *dog 💰💰\u000bw 💦💦\n\"42 💰💰 /w"}
+{"mode": "max", "in": "1st", "out": " 🥇🥇1st"}
+{"mode": "max", "in": "#tag", "out": " 🚫🚫#tag"}
+{"mode": "max", "in": "\t;world \\hello\rgreat&　z e.g. ?$5/  包 X: ,ﾟ* 🌺x", "out": " 💰💰\t;world 💰💰 \\hello 💰💰\rgreat&　z 🅰🅰 e.g. ?$5/  包 X: ,ﾟ* 🌺x"}
+{"mode": "max", "in": "the; !a包\n__\u000b[b]? привет　cat　…- 1st a包&", "out": " 🚫🚫the; 💰💰 !a包\n__ 💰💰\u000b[b]? 💓💓 привет　cat　…- 🥇🥇 1st 💰💰 a包&"}
+{"mode": "max", "in": "包 &y\\\f,k- ﾟ:　bad", "out": "包 💰💰 &y\\ 💰💰\f,k- 💰💰 ﾟ:　bad"}
+{"mode": "max", "in": "a the; \t OK\fbad\\\fa-b", "out": " 💰💰a 🚫🚫 the; 💰💰 \t OK 💰💰\fbad\\ 💰💰\fa-b"}
+{"mode": "max", "in": "🌺x, ", "out": "🌺x, "}
+{"mode": "max", "in": "Ok\nzzz- 7 \t 日本語\u000b?包… {c}", "out": " 💰💰Ok 😂😂\nzzz- 💯💯 7 \t 日本語\u000b?包… 💓💓 {c}"}
+{"mode": "max", "in": "z ? <d> 1st\tcat \t !!! ", "out": " 😂😂z ? 💰💰 <d> 🥇🥇 1st 💓💓\tcat \t !!! "}
+{"mode": "max", "in": "\"42 a-b( the /q 😀a\" &fire? i)", "out": " 💦💦\"42 💰💰 a-b( 🚫🚫 the 👏👏 /q 💰💰 😀a\" ♂♂ &fire? 👁👁 i)"}
+{"mode": "max", "in": "Y )Ok\t(<d>. w; ,hot 1st 😀", "out": " 💰💰Y )Ok 💰💰\t(<d>. 💰💰 w; 💰💰 ,hot 🥇🥇 1st 😀"}
+{"mode": "max", "in": "macaca", "out": " 💘💘macaca"}
+{"mode": "max", "in": "$5, X^ ?is hello", "out": " ✋✋$5, X^ 👁👁 ?is 💰💰 hello"}
+{"mode": "max", "in": "Ok \t z\\  1st ;$5 \t ok( pizza!", "out": " 💰💰Ok 😂😂 \t z\\ 🥇🥇  1st ✋✋ ;$5 💰💰 \t ok( 🚨🚨 pizza!"}
+{"mode": "max", "in": "[b]!", "out": " 💰💰[b]!"}
+{"mode": "max", "in": "\t?bad^ a包\r?_foo/", "out": " 💰💰\t?bad^ 💰💰 a包\r?_foo/"}
+{"mode": "half", "in": "Hello World", "out": " 🅾Hello 👉 World"}
+{"mode": "half", "in": "hello  world", "out": " 🅾hello 👉  world"}
+{"mode": "half", "in": "  leading", "out": " 😂  leading"}
+{"mode": "half", "in": "trailing  ", "out": " 😤trailing  "}
+{"mode": "half", "in": "", "out": ""}
+{"mode": "half", "in": "a", "out": " 🏼a"}
+{"mode": "half", "in": "  ", "out": "  "}
+{"mode": "half", "in": "!!!", "out": "!!!"}
+{"mode": "half", "in": "...hello...", "out": " 🅾...hello..."}
+{"mode": "half", "in": "\"a\"", "out": " 🏼\"a\""}
+{"mode": "half", "in": "(b)", "out": " 🅰(b)"}
+{"mode": "half", "in": "_c_", "out": "_c_"}
+{"mode": "half", "in": "1 2 3", "out": " 👍1 ⛱ 2 😭 3"}
+{"mode": "half", "in": "x y z", "out": "x 🔥 y 😂 z"}
+{"mode": "half", "in": "I love you", "out": " 🌷I 😂 love 🔥 you"}
+{"mode": "half", "in": "a\tb\nc", "out": " 🏼a 🅰\tb 💀\nc"}
+{"mode": "half", "in": "é a", "out": "é 🏼 a"}
+{"mode": "half", "in": "a é", "out": " 🏼a é"}
+{"mode": "half", "in": ":is \\🌺x ?\\\fx\u000band~ ?a_b ;#tag; ñandú #tag;  😀a/", "out": " 🌷:is \\🌺x ?\\\fx 🏼\u000band~ 🏼 ?a_b 😤 ;#tag; 🏼 ñandú 😤 #tag; 🏼  😀a/"}
+{"mode": "half", "in": "42 hot: 包 e.g.", "out": " 💦42 🅾 hot: 包 😂 e.g."}
+{"mode": "half", "in": "<d>\"　,lol <d> Z\r?a包 \t the A\t'[b]", "out": " 🏼<d>\"　,lol 🏼 <d> 😂 Z 🏼\r?a包 😤 \t the 🏼 A 🅰\t'[b]"}
+{"mode": "half", "in": "bad 'quoted' Ok.\r$5) \t e.g.! \t :Ok *k*　\"dq\"*\u000bıi  :ok:\u000b!!!", "out": " 🅰bad 'quoted' ✊ Ok. 😂\r$5) 😂 \t e.g.! ✊ \t :Ok ✊ *k*　\"dq\"* 🌷\u000bıi ✊  :ok:\u000b!!!"}
+{"mode": "half", "in": "murder", "out": " 🙋murder"}
+{"mode": "half", "in": " ;dog(\tY: (love", "out": " 🏼 ;dog( 🔥\tY: 😂 (love"}
+{"mode": "half", "in": "?good I\n? \t world　包\u000b😀 Z\t@user !ﾟ \t 100%! …X", "out": " 🅰?good 🌷 I\n? 👉 \t world　包\u000b😀 😂 Z 🔪\t@user !ﾟ 👍 \t 100%! …X"}
+{"mode": "half", "in": "puss", "out": " 🏼puss"}
+{"mode": "half", "in": "Ok @user\f🌺x {c}\u000b\"dq\",\r!X A& \t nice Ok' a_b\rbad", "out": " ✊Ok 🔪 @user\f🌺x 💀 {c} 🏼\u000b\"dq\",\r!X 🏼 A& 💰 \t nice Ok' 🏼 a_b 🅰\rbad"}
+{"mode": "half", "in": "-bad", "out": " 🅰-bad"}
+{"mode": "half", "in": "{c} ﾟ　)日本語, the\tıi &ok ﾟ is\\ lol Z 7　#tag)", "out": " 💀{c} ﾟ　)日本語, 😤 the 🌷\tıi ✊ &ok ﾟ 🌷 is\\ 😂 lol 😂 Z 💯 7　#tag)"}
+{"mode": "half", "in": "日本語 \"dq\"\n~!!!(\f/dog <d> ^{c} a包\n;🌺x \t hello", "out": "日本語 🏼 \"dq\"\n~!!!( 🏼\f/dog 🏼 <d> 💀 ^{c} 🏼 a包\n;🌺x 🅾 \t hello"}
+{"mode": "half", "in": "a ?é*  ~you 'quoted'\n#tag'", "out": " 🏼a ?é* 🔥  ~you 👏 'quoted' 😤\n#tag'"}
+{"mode": "half", "in": "ıi\"\t'...^\n)z /-;\rlol)\ndog\tis\rzzz\n_foo", "out": " 🌷ıi\"\t'...^ 😂\n)z /-; 😂\rlol) 🏼\ndog 🌷\tis 😂\rzzz\n_foo"}
+{"mode": "half", "in": "Z 😀a-", "out": " 😂Z 🏼 😀a-"}
+{"mode": "half", "in": "1st ^... \\OK\u000b&I", "out": " 👍1st ^... ✊ \\OK 🌷\u000b&I"}
+{"mode": "half", "in": "~world \t you\t😀; I,\rmoney", "out": " 👉~world 🔥 \t you\t😀; 🌷 I, 🙋\rmoney"}
+{"mode": "half", "in": "fire 日本語\rlove w\f,fire　!!!", "out": " 🔫fire 日本語 😂\rlove 👉 w 🔫\f,fire　!!!"}
+{"mode": "half", "in": "&good&\fé a-b\\ {c}; \t ^1st\f_foo a包", "out": " 🅰&good& 🏼\fé a-b\\ 💀 {c}; 👍 \t ^1st\f_foo a包"}
+{"mode": "half", "in": "1st\ne.g.; \t cat \"dq\"\tw*", "out": " 👍1st 😂\ne.g.; 💀 \t cat \"dq\" 👉\tw*"}
+{"mode": "half", "in": "\\cold (a)/ a包 ok? the'\n_foo", "out": " 💀\\cold 🏼 (a)/ 🏼 a包 ✊ ok? 😤 the'\n_foo"}
+{"mode": "half", "in": "привет\nlol: pizza &[b]\t/a-b Ok \t is #tag /a包,", "out": "привет 😂\nlol: 🏼 pizza 🅰 &[b] 🏼\t/a-b Ok 🌷 \t is 😤 #tag 🏼 /a包,"}
+{"mode": "half", "in": "good\r&k\t;hot\r\"#tag-　ñandú\\\u000bw-　(a)*\t1st OK& Y\nñandú 1st\"", "out": " 🅰good ✊\r&k 🅾\t;hot 😤\r\"#tag-　ñandú\\ 👉\u000bw-　(a)* 👍\t1st ✊ OK& 🔥 Y 🏼\nñandú 👍 1st\""}
+{"mode": "half", "in": "#tag* \t …a包\" Ok　great/\u000bI) 7 the\u000b-\"", "out": " 😤#tag* 🏼 \t …a包\" ✊ Ok　great/ 🌷\u000bI) 💯 7 the\u000b-\""}
+{"mode": "half", "in": "love!\u000band\" __  a/\u000b包-", "out": " 😂love! 🏼\u000band\" __ 🏼  a/\u000b包-"}
+{"mode": "half", "in": "?a_b(\t;hello\fe.g.", "out": " 🏼?a_b( 🅾\t;hello 😂\fe.g."}
+{"mode": "half", "in": "rosy palm and her 5 sisters", "out": " 🗑rosy 🏼 palm 🏼 and 🅾 her 😂 5 👩 sisters"}
+{"mode": "half", "in": "the& ^the, @user;\rgreat [b] w\u000b42 ... ﾟ 100%^\f日本語 包", "out": " 😤the& 😤 ^the, 🔪 @user; 🅰\rgreat 🅰 [b] 👉 w 💦\u000b42 ... ﾟ 👍 100%^\f日本語 包"}
+{"mode": "half", "in": "é\\\t$5 \t w! \t x\r(Y* hello-\n~w　q:  _foo \"dq\"", "out": "é\\ 😂\t$5 👉 \t w! \t x 🔥\r(Y* 🅾 hello- 👉\n~w　q:  _foo 🏼 \"dq\""}
+{"mode": "half", "in": "niggor", "out": " 💰niggor"}
+{"mode": "half", "in": "$5…\fa-b\f7　ñandú dog* X? [b]  日本語 Ok 'quoted'& -X pizza", "out": " 😂$5… 🏼\fa-b 💯\f7　ñandú 🏼 dog* X? 🅰 [b]  日本語 ✊ Ok 👏 'quoted'& -X 🏼 pizza"}
+{"mode": "half", "in": " привет- Y", "out": " привет- 🔥 Y"}
+{"mode": "half", "in": "42　love\rX\ta_b\u000blove& Z\"\na-b　.😀a ;'quoted' привет  'привет", "out": " 💦42　love\rX 🏼\ta_b 😂\u000blove& 😂 Z\" 🏼\na-b　.😀a 👏 ;'quoted' привет  'привет"}
+{"mode": "half", "in": "é\\", "out": "é\\"}
+{"mode": "half", "in": "ƒ\u000bworld\tI\\\u000bbad… ñandú a.\u000b…fire! love zzz", "out": "ƒ 👉\u000bworld 🌷\tI\\ 🅰\u000bbad… 🏼 ñandú 🏼 a. 🔫\u000b…fire! 😂 love 😂 zzz"}
+{"mode": "half", "in": "kaffre", "out": " ✊kaffre"}
+{"mode": "half", "in": "k -\rthe　'日本語\"\u000bpizza\ty\u000b100%…  k' \t 'quoted';", "out": " ✊k - 😤\rthe　'日本語\" 🏼\u000bpizza 🔥\ty 👍\u000b100%… ✊  k' 👏 \t 'quoted';"}
+{"mode": "half", "in": "die", "out": " 🏼die"}
+{"mode": "half", "in": "and nice\nıi", "out": " 🏼and 💰 nice 🌷\nıi"}
+{"mode": "half", "in": "a包: good 包 you a-b 🌺x .\"dq\"!\r😀a\u000b'I& &__ 🌺x", "out": " 🏼a包: good 包 🔥 you 🏼 a-b 🌺x 🏼 .\"dq\"! 🏼\r😀a 🌷\u000b'I& &__ 🌺x"}
+{"mode": "half", "in": "the: world\u000b*...: world", "out": " 😤the: 👉 world\u000b*...: 👉 world"}
+{"mode": "half", "in": "I great ok ? ok .- é'\u000bX &?", "out": " 🌷I 🅰 great ✊ ok ? ✊ ok .- é'\u000bX &?"}
+{"mode": "half", "in": " …\"dq\"　lol 100%  __", "out": " 🏼 …\"dq\"　lol 👍 100%  __"}
+{"mode": "half", "in": "slant", "out": " 👩slant"}
+{"mode": "half", "in": "<d> <d>\f'quoted' ﾟ", "out": " 🏼<d> 🏼 <d> 👏\f'quoted' ﾟ"}
+{"mode": "half", "in": " 2nd\fbad! dog( 'quoted', cold/\u000b2nd  ıi dog\\\t\\包", "out": " ⛱ 2nd 🅰\fbad! 🏼 dog( 'quoted', 💀 cold/ ⛱\u000b2nd 🌷  ıi 🏼 dog\\\t\\包"}
+{"mode": "half", "in": "hot ,42 bad Ok\ngreat*\u000bI)\tq　dog\u000bhello\\ nice -y a", "out": " 🅾hot 💦 ,42 🅰 bad ✊ Ok 🅰\ngreat* 🌷\u000bI) 👏\tq　dog 🅾\u000bhello\\ 💰 nice 🔥 -y 🏼 a"}
+{"mode": "half", "in": "lol?", "out": " 😂lol?"}
+{"mode": "half", "in": "&hot y/ \\a!\t\"great^", "out": " 🅾&hot 🔥 y/ \\a! 🅰\t\"great^"}
+{"mode": "half", "in": "floo", "out": " 🔫floo"}
+{"mode": "half", "in": "bad a-b 🌺x\n100%", "out": " 🅰bad 🏼 a-b 🌺x 👍\n100%"}
+{"mode": "half", "in": "/money [b] \t hot\u000bzzz", "out": " 🙋/money [b] 🅾 \t hot 😂\u000bzzz"}
+{"mode": "half", "in": "nice ıi ñandú _foo-\rx… .love I", "out": " 💰nice 🌷 ıi ñandú _foo-\rx… 😂 .love 🌷 I"}
+{"mode": "half", "in": "k cold~ great\tmoney \t …y ƒ a-b *Z Y( &🌺x", "out": " ✊k 💀 cold~ 🅰 great 🙋\tmoney 🔥 \t …y ƒ 🏼 a-b 😂 *Z 🔥 Y( &🌺x"}
+{"mode": "half", "in": " #tag\u000b&包) *100%\" bad …(a)-\n'quoted'\n*100% and love -… ?? _foo!", "out": " 😤 #tag\u000b&包) 👍 *100%\" 🅰 bad 🏼 …(a)- 👏\n'quoted' 👍\n*100% 🏼 and love -… ?? _foo!"}
+{"mode": "half", "in": "(@user w \t zzz good' ıi\f^包", "out": " 🔪(@user w 😂 \t zzz 🅰 good' 🌷 ıi\f^包"}
+{"mode": "half", "in": "日本語 A\rpizza Y cat 2nd é: /a包 \t 包 …w", "out": "日本語 🏼 A 🏼\rpizza 🔥 Y 💀 cat ⛱ 2nd é: 🏼 /a包 \t 包 👉 …w"}
+{"mode": "half", "in": "'!!!… \"money\" ﾟ\" Ok\rok\rfire", "out": "'!!!… 🙋 \"money\" ﾟ\" ✊ Ok ✊\rok 🔫\rfire"}
+{"mode": "half", "in": "pizza; w cat", "out": " 🏼pizza; 👉 w 💀 cat"}
+{"mode": "half", "in": "Z the 2nd\fq (a)\fñandú\r_foo", "out": " 😂Z 😤 the ⛱ 2nd 👏\fq 🏼 (a) 🏼\fñandú\r_foo"}
+{"mode": "half", "in": "2nd\u000bbad, *42 🌺x- love \t pizza\f-\\ {c},", "out": " ⛱2nd 🅰\u000bbad, 💦 *42 🌺x- 😂 love 🏼 \t pizza\f-\\ 💀 {c},"}
+{"mode": "half", "in": "fungus", "out": " 🔫fungus"}
+{"mode": "half", "in": "Ok", "out": " ✊Ok"}
+{"mode": "half", "in": "love/", "out": " 😂love/"}
+{"mode": "half", "in": "zzz\t\\good! ıi", "out": " 😂zzz 🅰\t\\good! 🌷 ıi"}
+{"mode": "half", "in": "fire привет( ,ıi X* [b]\t-日本語/\flove\nƒ\f1st? é", "out": " 🔫fire привет( 🌷 ,ıi X* 🅰 [b]\t-日本語/ 😂\flove\nƒ 👍\f1st? é"}
+{"mode": "half", "in": "playboy", "out": " 🏼playboy"}
+{"mode": "half", "in": "fingerfucked ", "out": " 🔫fingerfucked "}
+{"mode": "half", "in": ":- Y  \"Z …bad　\"dq\"&\r;a包\rI; z Y\ny Y", "out": ":- 🔥 Y 😂  \"Z …bad　\"dq\"& 🏼\r;a包 🌷\rI; 😂 z 🔥 Y 🔥\ny 🔥 Y"}
+{"mode": "half", "in": "ƒ \t good\n…A; :w&　-　?\fhot^ I *money/", "out": "ƒ 🅰 \t good 🏼\n…A; 👉 :w&　-　? 🅾\fhot^ 🌷 I 🙋 *money/"}
+{"mode": "half", "in": " ƒ' \"dq\"-\nlol' )ıi w  hello", "out": " ƒ' 🏼 \"dq\"- 😂\nlol' 🌷 )ıi 👉 w 🅾  hello"}
+{"mode": "half", "in": " \t ;\"dq\"- 日本語?\tz'\rcold ,world\fq/\u000b42 a^ (a): 😀", "out": " 🏼 \t ;\"dq\"- 日本語? 😂\tz' 💀\rcold 👉 ,world 👏\fq/ 💦\u000b42 🏼 a^ 🏼 (a): 😀"}
+{"mode": "half", "in": "?zzz\rñandú: …nice　lol! \\2nd' I,", "out": " 😂?zzz 🏼\rñandú: 💰 …nice　lol! ⛱ \\2nd' 🌷 I,"}
+{"mode": "half", "in": "cocky", "out": " 💀cocky"}
+{"mode": "half", "in": "\f~dog  i Z 😀 \t ", "out": " 🏼\f~dog 🌷  i 😂 Z 😀 \t "}
+{"mode": "half", "in": "日本語 <d>*", "out": "日本語 🏼 <d>*"}
+{"mode": "half", "in": "... x\\  {c}\f\"is\nhello　ok  ﾟ\t,dog.\n日本語", "out": "... x\\ 💀  {c} 🌷\f\"is 🅾\nhello　ok  ﾟ 🏼\t,dog.\n日本語"}
+{"mode": "half", "in": "lol!", "out": " 😂lol!"}
+{"mode": "half", "in": "'quoted'\rY ıi 日本語 i cat ok ,money\f*Z world (and ", "out": " 👏'quoted' 🔥\rY 🌷 ıi 日本語 🌷 i 💀 cat ok 🙋 ,money 😂\f*Z 👉 world 🏼 (and "}
+{"mode": "half", "in": "Y\\\t?& \t @user $5 !?\fis/ *ñandú $5　bad k^ !!! q", "out": " 🔥Y\\\t?& 🔪 \t @user 😂 $5 !? 🌷\fis/ 🏼 *ñandú 😂 $5　bad k^ !!! 👏 q"}
+{"mode": "half", "in": "i good /bad 100%\u000b!包/ A good) bad(\n😀a) money hot", "out": " 🌷i 🅰 good 🅰 /bad 👍 100%\u000b!包/ 🏼 A 🅰 good) 🅰 bad( 🏼\n😀a) 🙋 money 🅾 hot"}
+{"mode": "half", "in": "shitfull", "out": " 👩shitfull"}
+{"mode": "half", "in": "money\"\r.#tag fire/ \t 1st 7~\rZ é \"bad bad'", "out": " 🙋money\" 😤\r.#tag 🔫 fire/ 👍 \t 1st 💯 7~ 😂\rZ é 🅰 \"bad 🅰 bad'"}
+{"mode": "half", "in": "love　cat", "out": " 😂love　cat"}
+{"mode": "half", "in": "😀 love q\tz\" _foo 🌺x A", "out": "😀 😂 love 👏 q 😂\tz\" _foo 🌺x 🏼 A"}
+{"mode": "half", "in": "(a)… )1st　and @user  love zzz\fdog- w(", "out": " 🏼(a)… 👍 )1st　and 🔪 @user 😂  love zzz 🏼\fdog- 👉 w("}
+{"mode": "half", "in": "　money\t{c}, dog' ﾟ a_b… 😀a A?", "out": " 🙋　money 💀\t{c}, 🏼 dog' 🏼 ﾟ a_b… 😀a 🏼 A?"}
+{"mode": "half", "in": "crappy", "out": " 💀crappy"}
+{"mode": "half", "in": "kum", "out": " ✊kum"}
+{"mode": "half", "in": " nice <d>\r<d>  \"dq\"& ıi! {c}\r,?… \"cat\u000b__* (_foo　z _foo", "out": " 💰 nice 🏼 <d> 🏼\r<d> 🏼  \"dq\"& 🌷 ıi! 💀 {c}\r,?… 💀 \"cat\u000b__* (_foo　z _foo"}
+{"mode": "half", "in": "blonde action", "out": " 🅰blonde 🏼 action"}
+{"mode": "half", "in": "-fire?\flol  a pizza  ƒ^", "out": " 🔫-fire? 😂\flol 🏼  a 🏼 pizza  ƒ^"}
+{"mode": "half", "in": "!@user fire…", "out": " 🔪!@user 🔫 fire…"}
+{"mode": "half", "in": " \t ok ﾟ )ıi!\t!🌺x\u000b)😀a\ty é!", "out": " ✊ \t ok ﾟ 🌷 )ıi!\t!🌺x 🏼\u000b)😀a 🔥\ty é!"}
+{"mode": "half", "in": "bad ñandú\f!a_b: k\"\t'quoted'' money", "out": " 🅰bad 🏼 ñandú 🏼\f!a_b: ✊ k\" 👏\t'quoted'' 🙋 money"}
+{"mode": "half", "in": "🌺x\r*and) love 42 é is  i ﾟ'\u000b100% world \\fire&", "out": "🌺x 🏼\r*and) love 💦 42 é 🌷 is 🌷  i ﾟ' 👍\u000b100% world 🔫 \\fire&"}
+{"mode": "half", "in": " a-b\t... 'quoted'\nY Z. i.\u000bﾟ\\\n.a包", "out": " 🏼 a-b\t... 👏 'quoted' 🔥\nY 😂 Z. 🌷 i.\u000bﾟ\\ 🏼\n.a包"}
+{"mode": "half", "in": "hello…", "out": " 🅾hello…"}
+{"mode": "half", "in": "ñandú ñandú &a-b $5 ƒ a_b　Z \t 包", "out": " 🏼ñandú ñandú &a-b 😂 $5 ƒ 🏼 a_b　Z \t 包"}
+{"mode": "half", "in": "dog \t y hello  (a) 😀 ıi\rcold !!! ... \t a-b:", "out": " 🏼dog 🔥 \t y 🅾 hello 🏼  (a) 😀 🌷 ıi 💀\rcold !!! ... 🏼 \t a-b:"}
+{"mode": "half", "in": "k;", "out": " ✊k;"}
+{"mode": "half", "in": "-\\  you& )money;", "out": "-\\ 🔥  you& 🙋 )money;"}
+{"mode": "half", "in": "ƒ ok ,__ you: lol z  __", "out": "ƒ ✊ ok ,__ 🔥 you: 😂 lol 😂 z  __"}
+{"mode": "half", "in": "!pizza\u000ba_b'  money(\nbad  lol k(  x ?...\tw　^包　包\r", "out": " 🏼!pizza 🏼\u000ba_b' 🙋  money( 🅰\nbad 😂  lol ✊ k(  x ?... 👉\tw　^包　包\r"}
+{"mode": "half", "in": " ... x) 😀", "out": " ... x) 😀"}
+{"mode": "half", "in": "Y\f🌺x  ~and? w …A  a_b\u000b😀 a包 'quoted'\rX\t? \t 'é", "out": " 🔥Y\f🌺x 🏼  ~and? 👉 w 🏼 …A 🏼  a_b\u000b😀 🏼 a包 👏 'quoted'\rX\t? \t 'é"}
+{"mode": "half", "in": "hot  ,42", "out": " 🅾hot 💦  ,42"}
+{"mode": "half", "in": "great\\ cat 😀a\nzzz", "out": " 🅰great\\ 💀 cat 🏼 😀a 😂\nzzz"}
+{"mode": "half", "in": "pee-pee", "out": " 🏼pee-pee"}
+{"mode": "half", "in": "good\u000bI/ 🌺x  (a) A  …world' !? '🌺x 2nd ?2nd( and;", "out": " 🅰good 🌷\u000bI/ 🌺x 🏼  (a) 🏼 A 👉  …world' !? '🌺x ⛱ 2nd ⛱ ?2nd( 🏼 and;"}
+{"mode": "half", "in": "cold'", "out": " 💀cold'"}
+{"mode": "half", "in": "y\n100% and… <d> ...\nhot&\r日本語\flol and~ :@user __", "out": " 🔥y 👍\n100% 🏼 and… 🏼 <d> ... 🅾\nhot&\r日本語 😂\flol and~ 🔪 :@user __"}
+{"mode": "half", "in": "s&m", "out": " 👩s&m"}
+{"mode": "half", "in": "a包\u000bY. the; OK!  ﾟ ıi  good.  /zzz \t привет money& ñandú\u000b(a)", "out": " 🏼a包 🔥\u000bY. 😤 the; ✊ OK! 🌷  ﾟ ıi 🅰  good. 😂  /zzz \t привет 🙋 money& 🏼 ñandú 🏼\u000b(a)"}
+{"mode": "half", "in": "é\" OK I ;привет 😀a!\tıi привет\\  fire", "out": "é\" ✊ OK 🌷 I ;привет 🏼 😀a! 🌷\tıi привет\\ 🔫  fire"}
+{"mode": "half", "in": "$5&", "out": " 😂$5&"}
+{"mode": "half", "in": " i?\u000b_foo \t 7… …zzz,\tzzz &__ - <d>*", "out": " 🌷 i?\u000b_foo 💯 \t 7… 😂 …zzz, 😂\tzzz &__ 🏼 - <d>*"}
+{"mode": "half", "in": "hello\n@user A~ *ıi) /7\"\u000b*(a)  *y é(\n-  cold 1st\rcold", "out": " 🅾hello 🔪\n@user 🏼 A~ 🌷 *ıi) 💯 /7\" 🏼\u000b*(a) 🔥  *y é(\n- 💀  cold 👍 1st 💀\rcold"}
+{"mode": "half", "in": "is　包\fcat", "out": " 🌷is　包 💀\fcat"}
+{"mode": "half", "in": "breast", "out": " 🅰breast"}
+{"mode": "half", "in": "love?", "out": " 😂love?"}
+{"mode": "half", "in": "Z", "out": " 😂Z"}
+{"mode": "half", "in": "women's", "out": " 👉women's"}
+{"mode": "half", "in": "a包) a包 \t \"dq\"' cold: Ok)\fA…", "out": " 🏼a包) 🏼 a包 🏼 \t \"dq\"' 💀 cold: ✊ Ok) 🏼\fA…"}
+{"mode": "half", "in": "#tag?  'quoted'", "out": " 😤#tag? 👏  'quoted'"}
+{"mode": "half", "in": "^k dog* ... ?,\tmoney\n\\a_b!\u000bfire* hello　😀\\\u000b包? ", "out": " ✊^k 🏼 dog* ... ?, 🙋\tmoney 🏼\n\\a_b! 🔫\u000bfire* 🅾 hello　😀\\\u000b包? "}
+{"mode": "half", "in": " )ıi!  y bad& _foo/  'and　? 'quoted'^", "out": " 🌷 )ıi! 🔥  y 🅰 bad& _foo/ 🏼  'and　? 👏 'quoted'^"}
+{"mode": "half", "in": "😀? \\you^\tpizza\r@user 包", "out": "😀? 🔥 \\you^ 🏼\tpizza 🔪\r@user 包"}
+{"mode": "half", "in": "i \\lol\n)hot 7 ^i~ ^7  \\hot \t …OK", "out": " 🌷i 😂 \\lol 🅾\n)hot 💯 7 🌷 ^i~ 💯 ^7 🅾  \\hot ✊ \t …OK"}
+{"mode": "half", "in": "🌺x^\r:good \t a\u000bпривет\tcat\f:a\u000b\"zzz\t)X", "out": "🌺x^ 🅰\r:good 🏼 \t a\u000bпривет 💀\tcat 🏼\f:a 😂\u000b\"zzz\t)X"}
+{"mode": "half", "in": "OK e.g. !!! hot a(\tƒ, <d>\tпривет", "out": " ✊OK 😂 e.g. 🅾 !!! hot 🏼 a(\tƒ, 🏼 <d>\tпривет"}
+{"mode": "half", "in": "X and　_foo* x (y' привет a_b world\u000bZ; ,and\rfire\\", "out": "X and　_foo* x 🔥 (y' 🏼 привет a_b 👉 world 😂\u000bZ; 🏼 ,and 🔫\rfire\\"}
+{"mode": "half", "in": "$5~  y 🌺x! ($5\fok^ !100% ~you-\tx ....\f日本語;\rƒ\r&ok \t ", "out": " 😂$5~ 🔥  y 🌺x! ($5 ✊\fok^ 👍 !100% 🔥 ~you-\tx ....\f日本語;\rƒ ✊\r&ok \t "}
+{"mode": "half", "in": "good a 7^\fa-b Ok( 😀", "out": " 🅰good 🏼 a 💯 7^ 🏼\fa-b ✊ Ok( 😀"}
+{"mode": "half", "in": "\nıi ~i… pizza.\tis", "out": " 🌷\nıi 🌷 ~i… 🏼 pizza. 🌷\tis"}
+{"mode": "half", "in": "#tag ;🌺x\fy 100%  y x^ 42\"", "out": " 😤#tag ;🌺x 🔥\fy 100% 🔥  y x^ 💦 42\""}
+{"mode": "half", "in": "包/ .w !Y(", "out": "包/ 👉 .w 🔥 !Y("}
+{"mode": "half", "in": "lol/\t__\fY(\u000bA", "out": " 😂lol/\t__ 🔥\fY( 🏼\u000bA"}
+{"mode": "half", "in": "@user! you  🌺x  A \"dq\"\ta z…", "out": " 🔪@user! 🔥 you  🌺x 🏼  A 🏼 \"dq\" 🏼\ta 😂 z…"}
+{"mode": "half", "in": "?🌺x/ __\tis\u000bcold\r!@user\tand\tI　日本語 world\n😀a", "out": "?🌺x/ __ 🌷\tis 💀\u000bcold 🔪\r!@user 🏼\tand 🌷\tI　日本語 👉 world 🏼\n😀a"}
+{"mode": "half", "in": "привет", "out": "привет"}
+{"mode": "half", "in": ":<d>' OK ñandú'　2nd 2nd ^cold? ", "out": " 🏼:<d>' ✊ OK 🏼 ñandú'　2nd ⛱ 2nd 💀 ^cold? "}
+{"mode": "half", "in": "pissed", "out": " 🏼pissed"}
+{"mode": "half", "in": "OK;\f!7 😀a  q &k 'dog\r'quoted', ﾟ lol nice!\t@user\\", "out": " ✊OK; 💯\f!7 🏼 😀a 👏  q &k 🏼 'dog 👏\r'quoted', ﾟ 😂 lol 💰 nice! 🔪\t@user\\"}
+{"mode": "half", "in": "bigger", "out": " 🅰bigger"}
+{"mode": "half", "in": "sixsixsix", "out": " 👩sixsixsix"}
+{"mode": "half", "in": "<d>\rOK. ^hello*　2nd привет\f$5 ...~\r[b]", "out": " 🏼<d> ✊\rOK. 🅾 ^hello*　2nd привет 😂\f$5 ...~ 🅰\r[b]"}
+{"mode": "half", "in": "ok* *nice  7 {c}", "out": " ✊ok* 💰 *nice 💯  7 💀 {c}"}
+{"mode": "half", "in": "humping", "out": " 🅾humping"}
+{"mode": "half", "in": "hot  !!! Ok* \t …love?\ncold a包", "out": " 🅾hot  !!! ✊ Ok* 😂 \t …love? 💀\ncold 🏼 a包"}
+{"mode": "half", "in": "z^ a-b)\u000b?money\n/nice bad\flol\nzzz a '😀\f/é 'quoted'", "out": " 😂z^ 🏼 a-b) 🙋\u000b?money 💰\n/nice 🅰 bad 😂\flol 😂\nzzz 🏼 a '😀\f/é 👏 'quoted'"}
+{"mode": "half", "in": "a_b\r\"!!! Y\r$5 \"Ok 日本語", "out": " 🏼a_b 🔥\r\"!!! Y 😂\r$5 ✊ \"Ok 日本語"}
+{"mode": "half", "in": "😀\" [b] ıi ?a hot) \t 42\\ …😀\u000b", "out": " 🅰😀\" [b] 🌷 ıi 🏼 ?a 🅾 hot) 💦 \t 42\\ …😀\u000b"}
+{"mode": "half", "in": "包- ıi^ ﾟ&　2nd 'é\né\nZ zzz w; bad…\rI", "out": "包- 🌷 ıi^ ⛱ ﾟ&　2nd 'é\né 😂\nZ 😂 zzz 👉 w; 🅰 bad… 🌷\rI"}
+{"mode": "half", "in": "gypo", "out": " 🅰gypo"}
+{"mode": "half", "in": "7  ñandú …_foo\t(a)/ ﾟ:\t,q", "out": " 💯7 🏼  ñandú …_foo 🏼\t(a)/ ﾟ: 👏\t,q"}
+{"mode": "half", "in": "ky", "out": " ✊ky"}
+{"mode": "half", "in": "goddammit", "out": " 🅰goddammit"}
+{"mode": "half", "in": "nice ƒ a привет 2nd !a包 _foo\t包", "out": " 💰nice 🏼 ƒ a привет ⛱ 2nd 🏼 !a包 _foo\t包"}
+{"mode": "half", "in": "genitals", "out": " 🅰genitals"}
+{"mode": "half", "in": "is  - 42'\ny é y the love\u000b", "out": " 🌷is  - 💦 42' 🔥\ny é 🔥 y 😤 the 😂 love\u000b"}
+{"mode": "half", "in": "puntang", "out": " 🏼puntang"}
+{"mode": "half", "in": "a i, Ok\r-　*world\" A　lol　'quoted'( ^nice _foo ﾟ~", "out": " 🏼a 🌷 i, ✊ Ok 👉\r-　*world\" 🏼 A　lol　'quoted'( 💰 ^nice _foo ﾟ~"}
+{"mode": "half", "in": ":bad fire <d>&\na_b　A\fand\u000bbad- cat;\u000b-/", "out": " 🅰:bad 🔫 fire 🏼 <d>& 🏼\na_b　A 🏼\fand 🅰\u000bbad- 💀 cat;\u000b-/"}
+{"mode": "half", "in": "/OK~\ra包&\u000bhot/\tbad fire is:\u000b", "out": " ✊/OK~ 🏼\ra包& 🅾\u000bhot/ 🅰\tbad 🔫 fire 🌷 is:\u000b"}
+{"mode": "half", "in": "k\t(a)\\ [b]　cat ok 🌺x the *dog\u000bw\n\"42 /w", "out": " ✊k 🏼\t(a)\\ 🅰 [b]　cat ✊ ok 🌺x 😤 the 🏼 *dog 👉\u000bw 💦\n\"42 👉 /w"}
+{"mode": "half", "in": "1st", "out": " 👍1st"}
+{"mode": "half", "in": "#tag", "out": " 😤#tag"}
+{"mode": "half", "in": "\t;world \\hello\rgreat&　z e.g. ?$5/  包 X: ,ﾟ* 🌺x", "out": " 👉\t;world 🅾 \\hello 🅰\rgreat&　z 😂 e.g. ?$5/  包 X: ,ﾟ* 🌺x"}
+{"mode": "half", "in": "the; !a包\n__\u000b[b]? привет　cat　…- 1st a包&", "out": " 😤the; 🏼 !a包\n__ 🅰\u000b[b]? 💀 привет　cat　…- 👍 1st 🏼 a包&"}
+{"mode": "half", "in": "包 &y\\\f,k- ﾟ:　bad", "out": "包 🔥 &y\\ ✊\f,k- 🅰 ﾟ:　bad"}
+{"mode": "half", "in": "a the; \t OK\fbad\\\fa-b", "out": " 🏼a 😤 the; ✊ \t OK 🅰\fbad\\ 🏼\fa-b"}
+{"mode": "half", "in": "🌺x, ", "out": "🌺x, "}
+{"mode": "half", "in": "Ok\nzzz- 7 \t 日本語\u000b?包… {c}", "out": " ✊Ok 😂\nzzz- 💯 7 \t 日本語\u000b?包… 💀 {c}"}
+{"mode": "half", "in": "z ? <d> 1st\tcat \t !!! ", "out": " 😂z ? 🏼 <d> 👍 1st 💀\tcat \t !!! "}
+{"mode": "half", "in": "\"42 a-b( the /q 😀a\" &fire? i)", "out": " 💦\"42 🏼 a-b( 😤 the 👏 /q 🏼 😀a\" 🔫 &fire? 🌷 i)"}
+{"mode": "half", "in": "Y )Ok\t(<d>. w; ,hot 1st 😀", "out": " 🔥Y )Ok 🏼\t(<d>. 👉 w; 🅾 ,hot 👍 1st 😀"}
+{"mode": "half", "in": "macaca", "out": " 🙋macaca"}
+{"mode": "half", "in": "$5, X^ ?is hello", "out": " 😂$5, X^ 🌷 ?is 🅾 hello"}
+{"mode": "half", "in": "Ok \t z\\  1st ;$5 \t ok( pizza!", "out": " ✊Ok 😂 \t z\\ 👍  1st 😂 ;$5 ✊ \t ok( 🏼 pizza!"}
+{"mode": "half", "in": "[b]!", "out": " 🅰[b]!"}
+{"mode": "half", "in": "\t?bad^ a包\r?_foo/", "out": " 🅰\t?bad^ 🏼 a包\r?_foo/"}

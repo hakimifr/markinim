@@ -13,7 +13,8 @@ use crate::db::{CountTable, Session, User};
 use crate::keyboards;
 use crate::markov::END;
 use crate::state::AppState;
-use crate::text::{human_bytes_b, random_emoji};
+use crate::text::nim_case::to_lower_nim;
+use crate::text::{human_bytes_b, nim_str, random_emoji};
 
 pub struct MsgCtx {
     pub chat_id: i64,
@@ -550,7 +551,7 @@ async fn percentage(
         return Ok(());
     }
     let parsed = args[0]
-        .trim_matches(|c: char| c.is_whitespace() || c == '%')
+        .trim_matches(|c: char| nim_str::is_whitespace(c) || c == '%')
         .parse::<i64>();
     match parsed {
         Ok(value) => {
@@ -637,7 +638,7 @@ async fn markov_command(
 
     let mut start = args.join(" ");
     if !cached_session.case_sensitive {
-        start = start.to_lowercase();
+        start = to_lower_nim(&start);
     }
     let begin: Option<String> = if !args.is_empty() && (args[0] != END || args.len() >= 2) {
         Some(start)
@@ -680,6 +681,18 @@ async fn markov_command(
         tg.send_photo(ctx.chat_id, png).await?;
     }
     Ok(())
+}
+
+/// `/wouldyourather` option cleanup: `deduplicate(isSorted = false)` (first
+/// occurrences stay, in order), then `sortCandidates(length = 100)`.
+pub fn poll_candidates(options: Vec<String>) -> Vec<String> {
+    let mut unique: Vec<String> = Vec::new();
+    for option in options {
+        if !unique.contains(&option) {
+            unique.push(option);
+        }
+    }
+    sort_candidates(unique, 100)
 }
 
 fn sort_candidates(mut options: Vec<String>, length: usize) -> Vec<String> {
@@ -754,14 +767,7 @@ async fn would_you_rather(
         }
     }
 
-    // deduplicate(isSorted = false): keep first occurrences in order.
-    let mut unique: Vec<String> = Vec::new();
-    for option in options {
-        if !unique.contains(&option) {
-            unique.push(option);
-        }
-    }
-    let options = sort_candidates(unique, 100);
+    let options = poll_candidates(options);
 
     if options.len() < 2 {
         tg.send_message(
@@ -850,7 +856,7 @@ async fn delete(
         .await?;
         return Ok(());
     }
-    if args.first().map(|s| s.to_lowercase()).as_deref() == Some("confirm") {
+    if args.first().map(|s| to_lower_nim(s)).as_deref() == Some("confirm") {
         let _guard = st.mark_deleting(ctx.chat_id);
         return match delete_confirm(st, tg, ctx).await {
             Ok(()) => Ok(()),

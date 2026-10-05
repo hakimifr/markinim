@@ -6,13 +6,23 @@
 //!   character, so single-letter keys are what actually match;
 //! - `\w` is treated as ASCII, like Nim's std/re (not Unicode word chars).
 
-use rand::Rng;
-use rand::seq::IteratorRandom;
 use std::sync::OnceLock;
 
-use regex::Regex;
+use super::nim_case::to_lower_nim;
+use super::nim_str::is_whitespace;
 
 const MAPPINGS_JSON: &str = include_str!("../../assets/emoji-mappings.json");
+
+/// Nim's `rand(x)`, which is inclusive on both ends: `0..=x`.
+pub trait EmojiRandom {
+    fn rand(&mut self, x: usize) -> usize;
+}
+
+impl<R: rand::Rng> EmojiRandom for R {
+    fn rand(&mut self, x: usize) -> usize {
+        self.random_range(0..=x)
+    }
+}
 
 fn is_word_char(c: char) -> bool {
     c.is_ascii_alphanumeric() || c == '_'
@@ -29,15 +39,19 @@ fn mappings() -> &'static serde_json::Map<String, serde_json::Value> {
     })
 }
 
-/// Port of `splitIntoBlocks` (empty matches dropped, they contribute nothing).
+/// Port of `splitIntoBlocks` (`findAll(\s*[^\s]*)`): optional whitespace and
+/// then a word. Nim's `re` runs in byte mode, so only ASCII whitespace counts.
 fn blocks(text: &str) -> Vec<&str> {
-    static BLOCK: OnceLock<Regex> = OnceLock::new();
-    let block = BLOCK.get_or_init(|| Regex::new(r"\s*[^\s]*").expect("invalid block regex"));
-    block
-        .find_iter(text)
-        .map(|m| m.as_str())
-        .filter(|s| !s.is_empty())
-        .collect()
+    let mut blocks = Vec::new();
+    let mut rest = text;
+    while !rest.is_empty() {
+        let word = rest.trim_start_matches(is_whitespace);
+        let word_len = word.find(is_whitespace).unwrap_or(word.len());
+        let end = rest.len() - word.len() + word_len;
+        blocks.push(&rest[..end]);
+        rest = &rest[end..];
+    }
+    blocks
 }
 
 /// Port of `trimNonalphaChars` (`^\W*|\W*$`) with ASCII word chars.
@@ -59,7 +73,7 @@ fn alphanumeric_prefix(text: &str) -> &str {
 }
 
 fn matching_emojis(block: &str) -> Vec<String> {
-    let lowered = trim_nonalpha_chars(block).to_lowercase();
+    let lowered = to_lower_nim(trim_nonalpha_chars(block));
     let key = alphanumeric_prefix(&lowered);
     match mappings().get(key) {
         Some(serde_json::Value::Array(items)) => items
@@ -70,16 +84,13 @@ fn matching_emojis(block: &str) -> Vec<String> {
     }
 }
 
-fn generate_emojis(chunk: &str, max_emojis_per_block: usize, rng: &mut impl Rng) -> String {
+fn generate_emojis(chunk: &str, max_emojis_per_block: usize, rng: &mut dyn EmojiRandom) -> String {
     let matching = matching_emojis(chunk);
     let mut emojis = String::new();
     if !matching.is_empty() {
-        // Nim rand(0..max) is inclusive on both ends.
-        let count = rng.random_range(0..=max_emojis_per_block);
+        let count = rng.rand(max_emojis_per_block);
         for _ in 0..count {
-            if let Some(e) = matching.iter().choose(rng) {
-                emojis += e;
-            }
+            emojis += &matching[rng.rand(matching.len() - 1)];
         }
     }
     emojis
@@ -93,7 +104,7 @@ pub fn emojify_with(
     s: &str,
     word_delimiter: &str,
     max_emojis_per_block: usize,
-    rng: &mut impl Rng,
+    rng: &mut dyn EmojiRandom,
 ) -> String {
     let mut result = String::new();
     for chunk in blocks(s) {

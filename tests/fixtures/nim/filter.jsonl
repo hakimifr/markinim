@@ -1,0 +1,600 @@
+{"in": "", "blank": true, "sfw": false, "url": false, "user": false}
+{"in": "   ", "blank": true, "sfw": false, "url": false, "user": false}
+{"in": "\t\n\u000b\f\r", "blank": true, "sfw": false, "url": false, "user": false}
+{"in": " ", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "　", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "​", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "hello", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "Hello World, how are you?", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "http://a.com", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "https://example.com/path?q=1", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "www.example.com", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "www3.example.org/x", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "example.com/page", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "sub.domain.co.uk/", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "a.b/", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "http://x.y/z(1)", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "https://x.com/a_(b)", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "ftp://nope.com", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "www٣.com", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "wwwé.com", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "héllo.com/x", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "example.com", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "ex.am", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "https://日本語.jp/日本", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "http://a.com/«", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "http://a.com/»", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "http://a.com/“x”", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "http://a.com/‘x’", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "http://a.com/é", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "http://a.com/日本", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "http://a.com/日", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "http://a.com/ø", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "https://a.com/ x", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "a.com/　b", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "HTTP://UPPER.COM", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "Www.Mixed.Com/X", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "@user", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "@user_name", "blank": false, "sfw": false, "url": false, "user": true}
+{"in": "@a", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "@abc", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "@abcd", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "@ab_cd", "blank": false, "sfw": false, "url": false, "user": true}
+{"in": "@a__b", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "@abcd_", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "@_abcd", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "@Abcd", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "@abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnop", "blank": false, "sfw": false, "url": false, "user": true}
+{"in": "@éabcd", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "@abcdé", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "@abcd ", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "x@abcd", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "mail@host.com", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "@@abcd", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "@4bcd", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "@ab9d", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "@abcd__", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "@a_b_c_d", "blank": false, "sfw": false, "url": false, "user": true}
+{"in": "jigaboo", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "mound of venus", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "asslover", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "s&m", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "queaf", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "whitetrash", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "meatrack", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "ra8s", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "pimp", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "urine", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "whit", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "randy", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "herpes", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "niglet", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "narcotic", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "pudboy", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "rimming", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "boner", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "pornography", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "poop chute", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "israel", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "dong", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "slanteye", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "muffdiving", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "jiggabo", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "assassination", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "peepshpw", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "popimp", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "girl on", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "testicles", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "laid", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "molestor", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "peni5", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "tranny", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "barface", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "hell", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "arsehole", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "pissed", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "sixsixsix", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "execute", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "shitty ", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "conspiracy", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "hamas", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "cunilingus", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "bitcher", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "muslim", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "pee", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "niggled", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "muffindiver", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "cocksman", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "scag", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "aroused", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "niggling", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "fingerfucker ", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "nlggor", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "niggaz", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "assfuck", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "slant", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "urinate", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "mothafucked ", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "fungus", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "retard", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "gummer", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": ">", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "KIKE", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "-  @ab9d  fingerfucker   http://a.com/日本  https://日本語.jp/日本", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "meatrack  　  KIKE  @", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "приветwww.x.com éhttp://a.com", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "@abcda.com/　bmail@host.comſ", "blank": false, "sfw": true, "url": true, "user": true}
+{"in": "scunthorpe  _  wwwé.com  @abc  s&m  \n  http://a.com/日本", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "приветhttps://x.com  assistant  https://example.com/path?q=1  @user_name", "blank": false, "sfw": true, "url": true, "user": true}
+{"in": "nutfucker", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "fondle ASS @ab_cd heeb http://a.com/é", "blank": false, "sfw": true, "url": true, "user": true}
+{"in": "buried @éabcd https://a.com/ x a.b/ SHIT", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "s&mSHIThttp://a.com/é-penetrationéhttp://a.com", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": ">", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "fingerfucker   @user_name  clitoris  @abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnop  приветwww.x.com  😀", "blank": false, "sfw": true, "url": true, "user": true}
+{"in": "@Abcd www٣.com @ab9d \t ſ", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "\t lolita a.com/　b shıt ,", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "@a_b_c_d@abcd@userhttp://a.com/‘x’@a__bpussyfucker,", "blank": false, "sfw": true, "url": true, "user": true}
+{"in": "https://x.com/a_(b)", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "@@abcd@_abcd@_abcdtitty", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "http://a.com/é # pussycat sextoys @Abcd @abcd", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "shag", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "@a приветhttps://x.com", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "world @éabcd @abc @user_name", "blank": false, "sfw": false, "url": false, "user": true}
+{"in": "1 https://example.com/path?q=1", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "(", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "   \n @abcd", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "Www.Mixed.Com/X  https://x.com/a_(b)", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "@_abcd sh1t", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "  Ωmega cumm", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "    orgasm  @abcd  _  ?  a.com/　b", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "ſhit  KIKE  @abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnop  ᴋike  K", "blank": false, "sfw": true, "url": false, "user": true}
+{"in": "@a__b  éhttp://a.com  https://x.com/a_(b)", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": ",  @a_b_c_d  ſhit  　", "blank": false, "sfw": false, "url": false, "user": true}
+{"in": "http://a.com/øs&m", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "http://a.com/é mound of venus @abcd  @abcd  http://a.com/“x” fingerfucker  http://a.com/»", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "@ab9d  shıt  http://a.com/日本  hello  sub.domain.co.uk/  @ab_cd  example.com", "blank": false, "sfw": true, "url": true, "user": true}
+{"in": "wrinkled starfish1asswww3.example.org/xhttps://x.com/a_(b)fingerfucker@abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnop", "blank": false, "sfw": true, "url": true, "user": true}
+{"in": "ass sub.domain.co.uk/ birdlock a.com/　b", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": " http://a.com/日本example.com/pageexample.com/pagehttp://a.com/«www٣.com-", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "mail@host.com Ass tang x@abcd \t", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "HTTP://UPPER.COM \n gook ex.am pimper ASS", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "pecker  @abcd   x@abcd  @a__b", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "niggardliness's  @_abcd  ᴋike  kaffre", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "clitoris", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "fingerfucker @a__b@http://a.com/é", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "( deposit K spank @4bcd @a__b queer", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "приветwww.x.com http://a.com/日本 @abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnop @abcd__ snownigger  @abcd ", "blank": false, "sfw": true, "url": true, "user": true}
+{"in": "приветwww.x.com a.com/　b sadis", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "@ab_cd @abcd  @Abcd ᴋike", "blank": false, "sfw": false, "url": false, "user": true}
+{"in": ", scunthorpe", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "slapper", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "ſ @4bcd coitus shıt ſhit @abcd__", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "@abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnop \t http://x.y/z(1)", "blank": false, "sfw": false, "url": true, "user": true}
+{"in": "www3.example.org/x  mound of venus", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "https://日本語.jp/日本   mound of venus @a http://a.com/é ? fistfucked ", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": ") @ab_cd Ωmega   @abcd", "blank": false, "sfw": false, "url": false, "user": true}
+{"in": "http://a.com/é @ab_cd shıt", "blank": false, "sfw": false, "url": true, "user": true}
+{"in": "# cocksucer KIKE , @ scunthorpe fingerfucker ", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "ſ    wwwé.com", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "!  приветwww.x.com  http://a.com/«  K  @ab9d  приветhttps://x.com", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "\t  @ab_cd  https://日本語.jp/日本", "blank": false, "sfw": false, "url": true, "user": true}
+{"in": "éhttp://a.com https://日本語.jp/日本 @abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnop   　 -", "blank": false, "sfw": false, "url": true, "user": true}
+{"in": "Ωmega @abcdé https://日本語.jp/日本 x@abcd fingerfucker https://日本語.jp/日本 @abc", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "wwwé.com ejaculated kunt", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "www.example.com @user_name coitus", "blank": false, "sfw": true, "url": true, "user": true}
+{"in": "SHIT  kotex  ass", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "cornhole<", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "a.com/　b", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "KIKE @user_name  ", "blank": false, "sfw": true, "url": false, "user": true}
+{"in": "@ab9d", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "@éabcdſftp://nope.com", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "example.com/pagevenus moundbazongas　ftp://nope.com@user_nameprimetime", "blank": false, "sfw": true, "url": true, "user": true}
+{"in": "@ab_cd", "blank": false, "sfw": false, "url": false, "user": true}
+{"in": "\n http://a.com/é ( http://a.com/ø http://x.y/z(1) <", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "ſhit  hello     SHIT  >", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "@abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnop pendy www٣.com @ab9d lubejob whitey", "blank": false, "sfw": true, "url": false, "user": true}
+{"in": "@abcdé  ASS  https://a.com/ x  .", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "@user_name @ab_cd http://a.com/“x” www.example.com", "blank": false, "sfw": false, "url": true, "user": true}
+{"in": "   42  @abcd_  x@abcd  \n  fingerfucker ", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "www٣.com42", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "?", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "@ab_cdhttp://a.com/‘x’@userΩmega1@a__b_", "blank": false, "sfw": false, "url": true, "user": true}
+{"in": "ex.am swallow @abcd  sub.domain.co.uk/", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "ASS 😀", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "titlover Ωmega ) @abc @ab9d assistant", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "http://x.y/z(1)www٣.com#@abcd_", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "nofuckingway nig www3.example.org/x scunthorpe приветwww.x.com HTTP://UPPER.COM", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "black cock  ex.am  @a", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "Ωmega", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "sodomy", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "scunthorpe  @abcd_  >", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "fornicate _ https://日本語.jp/日本 mound of venus dies wetb cocksuck ", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "sub.domain.co.uk/", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "https://example.com/path?q=1🌺@abcd ", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "@abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnop > fairy @a fingerfucker  testicles ?", "blank": false, "sfw": true, "url": false, "user": true}
+{"in": "http://a.com/“x”  peepshpwcockblocker", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "a.com/　bftp://nope.com@éabcd", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "@a_b_c_d  Ωmega  gay   ", "blank": false, "sfw": true, "url": false, "user": true}
+{"in": "@éabcd rimjob ", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "SHIT @a http://a.com/日本", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "japanese KIKE", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "mail@host.com https://a.com/ x rosy palm and her 5 sisters http://a.com/» datnigga", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "yankee # http://a.com/é hello ex.am carpetmuncher", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "ᴋike", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": ")shıt#doggystyle>lezzo,", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "erotic", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "http://a.com/é \n ! http://x.y/z(1)", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "@@abcdqueaf", "blank": false, "sfw": true, "url": false, "user": true}
+{"in": "http://x.y/z(1) http://a.com a.b/", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "fingerfucker ", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "goddamnes hello", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "@Abcd)Asslaidx@abcd  ", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "fuckface", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "Ωmega", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "_ 1 KIKE hello http://a.com/日 éhttp://a.com _", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "héllo.com/x bangbros", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "ſ", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "ᴋikeworldhttps://example.com/path?q=1hello", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "ex.am", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "http://a.com/«  \t  Ass  http://a.com/»  mound of venus  -  ,", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "héllo.com/x  @abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnop  dirty sanchez  a.b/", "blank": false, "sfw": true, "url": false, "user": true}
+{"in": "? pindick # goyim feltcher @abcd ex.am", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "s&m @abcdé )", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "@a  https://x.com/a_(b)  KIKE  @abcd ", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "1  _  <  fingerfucker  hello  racist", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "-  ,  fingerfucker  mound of venus", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "http://a.com/日本 ASS ftp://nope.com http://a.com/» ! @Abcd", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "　  ,", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "a.com/　b  http://a.com/日     reverse cowgirl  fingerfucker   hello", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "@Abcd  shıt    x@abcd", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "ftp://nope.coms&m", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "K  ass  fingerfucker  !  @ab9d  http://a.com/日本", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "http://a.com/“x”?@abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnop!", "blank": false, "sfw": false, "url": true, "user": true}
+{"in": "example.com/page  SHIT", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "@Abcd  ftp://nope.com  Ωmega  missionary position  @abcd__  @@abcd", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": ", s&m K fingerfucker  1   mail@host.com", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "ass https://example.com/path?q=1", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "Ass@abcd_-octopussy", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "приветhttps://x.com darky http://a.com/‘x’", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "jizzum  scunthorpe  http://a.com  ſhit", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "assistant  #  😀  @éabcd  ", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "www3.example.org/x_Assfingerfuckererotic!s&m", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "moneyshot KIKE", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "www.example.com Ass ! kink ikey", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "dixiedike a.com/　b", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": ") héllo.com/x www٣.com", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "Ωmegaexample.comhttp://x.y/z(1)", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "ftp://nope.com", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "phukking", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "www٣.com  fingerfucker  @abcd   KIKE  x@abcd  @", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "\t", "blank": true, "sfw": false, "url": false, "user": false}
+{"in": "upskirt", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "ex.am)@abcd ", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "приветwww.x.com@Abcd😀😀", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "footlicker hapa https://日本語.jp/日本 arse", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "pendy\t", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "@abcd 😀@user)assistanthttp://a.com/ø", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "missionary position hosejob Ωmega shıt", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "sh1t fuckinright", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "dicklicker", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "goatse a.b/ x@abcd freakyfucker sub.domain.co.uk/ @user", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "scunthorpe fingerfucker  _ https://x.com/a_(b) sub.domain.co.uk/", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "assistant http://a.com gyppo @abc @abcd_ http://a.com/é", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "< facefucker", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "http://a.com/»  world  http://a.com/日本  ass  \n", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "@a", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "éhttp://a.com  @abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnop", "blank": false, "sfw": false, "url": true, "user": true}
+{"in": "shat", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "ex.am http://a.com/» @a 🌺 éhttp://a.com", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "@ab9d  ex.am  @abc  mound of venus  fingerfucker", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "example.com/page @abcd penile https://x.com/a_(b) http://a.com/» pimpjuic http://a.com/日本", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "buttfuckers  crack-whore     sub.domain.co.uk/  @abcd   mound of venus  fingerfucker", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "- slavedriver http://a.com/«", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "ſhit    www.example.com @a_b_c_d @abcd_ example.com/page", "blank": false, "sfw": false, "url": true, "user": true}
+{"in": "world  éhttp://a.com  junglebunny", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "@user_name ASS", "blank": false, "sfw": true, "url": false, "user": true}
+{"in": "ᴋike  Ass", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "cunntt", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "\n 42 Ass", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "wwwé.com http://a.com/“x” example.com @abcd ass ſ", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "@éabcd  executioner", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "http://a.com http://a.com/é éhttp://a.com 42 @_abcd @abcd__", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "@a_b_c_d  \n  　", "blank": false, "sfw": false, "url": false, "user": true}
+{"in": "pornking", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "https://日本語.jp/日本 @a__b @abcdé shrimping http://a.com ſ http://a.com/«", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "www٣.com addicts mound of venus @user fondle https://日本語.jp/日本 a.com/　b", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "@ nookie", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "@abcd_ ftp://nope.com pisser www.example.com _", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "@a__b mound of venus http://x.y/z(1) > @ hello !", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "mail@host.com @a luckycammeltoe ?  ", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "s&mwww.example.com", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "fingerfucker bastardofingerfucker dumbbitch", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "mound of venusприветhttps://x.comhéllo.com/xraper)@https://example.com/path?q=1", "blank": false, "sfw": true, "url": true, "user": true}
+{"in": "@a @abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnop @a__b eatpussy _", "blank": false, "sfw": true, "url": false, "user": true}
+{"in": "sleezebag@abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnop😀", "blank": false, "sfw": true, "url": false, "user": true}
+{"in": "fuk @_abcd hello ex.am ass motherfuck -", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "ſhit  http://a.com/‘x’", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "pu55y ex.am", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "@a ( mastabater http://a.com/“x” http://a.com/é http://a.com/日本 @4bcd", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "Ass @éabcd bumblefuck", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "world @_abcd world", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "SHIT", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "http://a.com/» ASS ( 42", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "jackoff ſhit thirdeye Www.Mixed.Com/X x@abcd _", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "fuckmonkey world mail@host.com ) dumbfuck a.com/　b @a__b", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "> whash", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "cumbubble   https://x.com/a_(b) ftp://nope.com http://a.com/日本 shitfaced mound of venus", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "ASS grope", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "HTTP://UPPER.COM @abcd", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "australian", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "SHIT ASS x@abcd Ass", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "\t  world  @user  !  KIKE  приветwww.x.com", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "@abcd_ @user", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "http://a.com/“x” fingerfucker  @ab9d @ab9d example.com/page", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "burn Ωmega", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "　fingerfuckerfuckfacetosser www٣.com", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "tnt assistant  ", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "cockcowboy", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "@abcd www٣.com K Ass", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "cameltoe", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "ſhithttp://a.com/»Kshitfull", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "titlover", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "@a__b \n example.com ( wank", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "( hookers fingerfucker @éabcd @Abcd", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "mail@host.com", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "a.b/ http://a.com/“x” @user_name shıt", "blank": false, "sfw": false, "url": true, "user": true}
+{"in": "http://a.com/ø .", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "приветwww.x.com", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "http://a.com/é._@Abcd@user", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "fucck ftp://nope.com", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "virginbreaker@#", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "@@abcd  willy  (  lapdance", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "dickhead", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "tnt@@abcd@@abcd", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "SHIT fingerfucker  http://a.com/» fingerfucker ex.am", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "< ſ ( @abcd  ex.am ſ   ", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "assistant  @_abcd 🌺", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "http://a.com/“x”  @abcd     ?  ,  -  girls gone wild", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "chink  @abcd", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "skankybitch ) ſ @abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnop @abcd__ fingerfucker  ,", "blank": false, "sfw": true, "url": false, "user": true}
+{"in": "éhttp://a.com macaca mail@host.com SHIT fingerfucker  @", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "éhttp://a.comприветhttps://x.com@user_namewww.example.comexample.comfingerfucker", "blank": false, "sfw": true, "url": true, "user": true}
+{"in": "s&m", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "@abcd_  a.b/  <", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "ſhit   @@abcd https://a.com/ x @a__b Www.Mixed.Com/X", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "@abcdé  K  @a  KIKE  hello  😀  www3.example.org/x", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "@user😀ASSKmolestor@@ab9d", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "http://a.com/«  http://x.y/z(1)", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "s&m", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "!", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "https://日本語.jp/日本 @ab9d @ ſhit @user @abcdé http://a.com/é", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "doggy styleᴋike", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "x@abcdmound of venus@abcdéscunthorpehttps://a.com/ x>🌺", "blank": false, "sfw": true, "url": true, "user": true}
+{"in": "pedophile　ᴋikehttps://x.com/a_(b)", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "ballsack", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "éhttp://a.comhéllo.com/xmothafucked @a_b_c_d", "blank": false, "sfw": true, "url": true, "user": true}
+{"in": "?  ftp://nope.com", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "@abcd__ https://x.com/a_(b)", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "http://a.com/日本 > @abcd  1 @éabcd hello http://a.com/»", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "K", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "@4bcd @abc ass www٣.com lowlife sub.domain.co.uk/ 😀", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "hoser  cunt", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "buttpirate  @abcd_  @abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnop  @éabcd  mockie  shithouse", "blank": false, "sfw": true, "url": false, "user": true}
+{"in": "@4bcd http://a.com/»42Ass@a_b_c_dhttp://a.com/«", "blank": false, "sfw": true, "url": true, "user": true}
+{"in": "https://x.com/a_(b)", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "https://日本語.jp/日本 \t xtc éhttp://a.com", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "42 - 42 K @abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnop", "blank": false, "sfw": false, "url": false, "user": true}
+{"in": "Ass  http://a.com/‘x’  s&m", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "! \t", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "x@abcd", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "www.example.com", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "@abcdéexample.com/pagefingerfucker😀@_abcdgoatcx?", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "KIKE @abcd -", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "barfface  angry  @a__b  nlgger", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "@abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnop shithead HTTP://UPPER.COM scunthorpe @user @abcd_", "blank": false, "sfw": true, "url": true, "user": true}
+{"in": "@user scunthorpe orgasm a.b/", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": ". @ab_cd", "blank": false, "sfw": false, "url": false, "user": true}
+{"in": "a.com/　b scunthorpe éhttp://a.com éhttp://a.com", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "http://a.com/éKIKEthroatinghttp://a.com/«@abc", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "@_abcd 　 hello example.com ?", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "ᴋike shat HTTP://UPPER.COM", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "http://a.com/日本 @ab_cd @abc ? ) ( \t", "blank": false, "sfw": false, "url": true, "user": true}
+{"in": "@user_name @abcd  42 http://a.com K black cock éhttp://a.com", "blank": false, "sfw": true, "url": true, "user": true}
+{"in": "https://日本語.jp/日本  приветwww.x.com", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "mail@host.com @abcd_", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "@abcd   sub.domain.co.uk/  trailertrash  HTTP://UPPER.COM  scunthorpe", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "https://x.com/a_(b)robber", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "@_abcd@a__b", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "приветwww.x.com @abcd_ http://a.com/‘x’ @abcd__", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "@abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnop  abortion  http://a.com/é  ᴋike  x@abcd  ſ", "blank": false, "sfw": true, "url": true, "user": true}
+{"in": "@abcd  K @abcd_", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "@abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnop  shıt  SHIT  mound of venus  pissing  >", "blank": false, "sfw": true, "url": false, "user": true}
+{"in": "@_abcd  hello", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "example.com/pageKIKEsh1t@_abcd", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "scunthorpe  (    ", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "приветwww.x.com  http://a.com/日本  slutt  ?  tonguetramp", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "@Abcd @user_name ſhit @abcd ?", "blank": false, "sfw": false, "url": false, "user": true}
+{"in": "@ab9dᴋike", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "ᴋike", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "@a http://a.com/日本 http://a.com/» @abcd__ http://a.com/ø ſ", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": ")  \n  www٣.com  ex.am  ass     @abcd_", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "sub.domain.co.uk/", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "a.b/http://a.com ", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "sub.domain.co.uk/ @éabcd white power hello", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "hindoo spaghettibender Ass KIKE http://a.com/« nig", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "http://a.com/é www3.example.org/x", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "foreskin SHIT sh1t assistant @a_b_c_d @abcd__ www3.example.org/x", "blank": false, "sfw": true, "url": true, "user": true}
+{"in": "mr hands  www٣.com  dominatrix", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "héllo.com/x jism @abcd  fingerfood  приветwww.x.com sadom", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "orga<@abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnopworldjiz 　", "blank": false, "sfw": true, "url": false, "user": true}
+{"in": "mail@host.com", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "@_abcd pimped http://a.com/日 gubba Www.Mixed.Com/X приветwww.x.com", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "éhttp://a.com  devilworshipper  @abcd__  ᴋike  zipperhead  fingerfucker  SHIT", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "http://a.com/« https://x.com/a_(b) @abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnop shıt fingerfucker", "blank": false, "sfw": true, "url": true, "user": true}
+{"in": "\n ! @abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnop Ωmega world @a", "blank": false, "sfw": false, "url": false, "user": true}
+{"in": "42 @4bcd @a_b_c_d ( http://a.com/é 🌺", "blank": false, "sfw": false, "url": true, "user": true}
+{"in": "https://x.com/a_(b)  héllo.com/x  homosexual  )  fingerfucker   x@abcd", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "http://x.y/z(1)  conservative    sh1t  fingerfucker  ᴋike  1", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "@_abcdhttp://a.com/‘x’!😀booty callsuckmyass", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "www٣.com hello @user_name )", "blank": false, "sfw": true, "url": false, "user": true}
+{"in": "jerk off hello KIKE", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "1jizjuice　https://x.com/a_(b)@ab9d", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "ſ sh1t https://example.com/path?q=1 http://a.com/» https://x.com/a_(b) Ass mound of venus", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "ſhit - @abcd__ Www.Mixed.Com/X", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "fetish  приветwww.x.com  _  ex.am  @", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "@  www.example.com  bigass  >  fight  @a_b_c_d", "blank": false, "sfw": true, "url": true, "user": true}
+{"in": "tonguethrust", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "Www.Mixed.Com/X  @a_b_c_d", "blank": false, "sfw": false, "url": true, "user": true}
+{"in": "hello", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "?", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "hell", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "ſ", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "42@Abcdſshitcanworldhéllo.com/x@abcdé", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "@user_name  @a  @a__b  swalow  .", "blank": false, "sfw": true, "url": false, "user": true}
+{"in": "KIKE", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "@4bcd ( www٣.com death \n wanker", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "@éabcd kink", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "ſhit  приветwww.x.com  1  @a_b_c_d  @abcd_  @_abcd  http://a.com/é", "blank": false, "sfw": false, "url": true, "user": true}
+{"in": "https://x.com/a_(b)", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "kunnilingus suck @abc tubgirl racial 　", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "приветwww.x.com ? sexslave www٣.com scunthorpe skinflute", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "http://a.com/é @abcd  ? ,", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "crack  😀", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "@abcd__", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "https://example.com/path?q=1", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "ſhithttp://a.com/øhttp://a.com/“x”@abc ", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "scunthorpe", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "sh1t https://x.com/a_(b) SHIT @abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnop goddamnmuthafucker", "blank": false, "sfw": true, "url": true, "user": true}
+{"in": "@ab9dhttp://x.y/z(1))", "blank": false, "sfw": false, "url": false, "user": true}
+{"in": "vaginaприветhttps://x.com", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "@abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnop", "blank": false, "sfw": false, "url": false, "user": true}
+{"in": "- honk @@abcd @éabcd", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "@4bcd@abcd @ab9d@abcd_ @user_name", "blank": false, "sfw": false, "url": false, "user": true}
+{"in": "assistanta.com/　b@a_b_c_dpimpjuic", "blank": false, "sfw": true, "url": true, "user": true}
+{"in": "@a__b -", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "gob@@abcdhttp://a.com/é@user_nameприветhttps://x.com", "blank": false, "sfw": true, "url": true, "user": true}
+{"in": "s&msh1t@askumbag", "blank": false, "sfw": true, "url": false, "user": true}
+{"in": "ex.am @ @4bcd 😀 @abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnop dago @@abcd", "blank": false, "sfw": true, "url": false, "user": true}
+{"in": "@Abcd tittie @user_name www3.example.org/x @abcd_", "blank": false, "sfw": true, "url": true, "user": true}
+{"in": "x@abcdK", "blank": false, "sfw": false, "url": false, "user": true}
+{"in": "@abcdé  www3.example.org/x  éhttp://a.com  beaver lips  　  racial", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "42 　 @abc fingerfucker  ASS ftp://nope.com", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "poof  mormon  @a_b_c_d      Www.Mixed.Com/X  a.b/  male squirting", "blank": false, "sfw": true, "url": true, "user": true}
+{"in": "@a_b_c_d", "blank": false, "sfw": false, "url": false, "user": true}
+{"in": "sub.domain.co.uk/ https://example.com/path?q=1 )", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "mail@host.com  -  osama", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "https://example.com/path?q=1  @ab_cd  Ωmega  @éabcd", "blank": false, "sfw": false, "url": true, "user": true}
+{"in": "KIKE\t@Abcd", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "x@abcdchinamenasswwwé.com42mail@host.com@user_name", "blank": false, "sfw": true, "url": false, "user": true}
+{"in": "scunthorpe http://a.com/» @ab_cd 42 yellow showers tit", "blank": false, "sfw": true, "url": true, "user": true}
+{"in": "https://example.com/path?q=1", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "shitola  http://a.com/“x”  @_abcd", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "ex.am@abcdéAss1приветhttps://x.com", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": ") \n mound of venus < fingerfucker  https://x.com/a_(b) sh1t", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "pimpjuice", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "  ", "blank": true, "sfw": false, "url": false, "user": false}
+{"in": "ftp://nope.com", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": " http://a.com@abcwww٣.com", "blank": false, "sfw": false, "url": true, "user": true}
+{"in": "sh1tcrimes@abcd ASS", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "?worldbigbastardſhitASS", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "@a__b   ! fu hello ASS 　", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "assistant fingerfucker  ex.am scunthorpe @éabcd", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "www٣.com @_abcd @_abcd feltching twinkie #", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "mossheadftp://nope.commail@host.com", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "www٣.com", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "ASS  pissoff   @abcd  gyppo  women rapping  ASS  @user_name", "blank": false, "sfw": true, "url": false, "user": true}
+{"in": "http://a.com/éexample.com/pagewww3.example.org/x  ", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "https://a.com/ x  http://a.com/‘x’  x@abcd  @abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnop  1  HTTP://UPPER.COM  <", "blank": false, "sfw": false, "url": true, "user": true}
+{"in": "dominatrix mound of venus destroy   # stripclub", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "sh1t 42 KIKE @abcd__ @ab9d ex.am", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "ex.am     a.com/　b  balls  http://a.com/ø  ftp://nope.com  \t", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "😀 orgasm mail@host.com gook @ab_cd pube", "blank": false, "sfw": true, "url": false, "user": true}
+{"in": "! @@abcd www3.example.org/x 1 ſ", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "krap 　 assistant _ http://a.com/é http://a.com/‘x’", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "fingerfucker ", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "http://a.com/ø  @abcd__  Ass  >  necro  \n", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": ">  https://x.com/a_(b)  😀  KIKE  scunthorpe", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": ") @ 🌺 @@abcd @abcdé shıt", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "example.com condom shawtypimp http://a.com/ø K assbagger", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "ASS@4bcdfoot fetish@abcd_", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "neonazi K whop hymie - sh1t приветwww.x.com", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "http://a.com/é", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "www٣.com@abc", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "testicle Www.Mixed.Com/X http://a.com/日本 hello", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "@ab_cd 😀 scunthorpe éhttp://a.com ASS ass", "blank": false, "sfw": true, "url": true, "user": true}
+{"in": "@abcd_  a.com/　b  @abcdé     spankthemonkey  _", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "ASSfingerfuckersub.domain.co.uk/", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": " sh1t😀@abcd example.com/page@", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "@abcd  > niggerhole ? ? ftp://nope.com coprophilia", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "ftp://nope.com", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "ftp://nope.com", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "diddle  nigerian  https://example.com/path?q=1  ſ  🌺", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "K www3.example.org/x @abcd_ @a black  ", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": " ", "blank": true, "sfw": false, "url": false, "user": false}
+{"in": "www.example.com  incest  ftp://nope.com  @éabcd  (  K", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "@a 🌺 @abcdé \t", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "http://a.com/“x”", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "fight ass 🌺 fuckmonkey quashie SHIT", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "ass ? http://a.com killed x@abcd  Ωmega", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": " @user_nameshıt", "blank": false, "sfw": false, "url": false, "user": true}
+{"in": "sh1t  @abcd   ſhit", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "( shıt 😀 www3.example.org/x ? HTTP://UPPER.COM", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "dipstick", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "héllo.com/x  https://日本語.jp/日本  )  www3.example.org/x  http://x.y/z(1)  @abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnop  www٣.com", "blank": false, "sfw": false, "url": true, "user": true}
+{"in": "42  ex.am  https://a.com/ x", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "x@abcd  http://a.com/é  @abcd  xxx  ᴋike  mail@host.com", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "( @user_name http://a.com/ø < muffdiving \n", "blank": false, "sfw": true, "url": true, "user": true}
+{"in": "reverse cowgirlexample.com@aприветwww.x.com@abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnop@a", "blank": false, "sfw": true, "url": true, "user": true}
+{"in": "  mail@host.com fecal ᴋike )", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "http://a.com/“x”", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": " fubar", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "SHIT  @a_b_c_d  \t", "blank": false, "sfw": true, "url": false, "user": true}
+{"in": "http://a.com  @4bcd  　  @abcd   sub.domain.co.uk/  nigger  @ab_cd", "blank": false, "sfw": true, "url": true, "user": true}
+{"in": "http://a.com/» Ωmega", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "mail@host.com wwwé.com ex.am https://a.com/ x shıt", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "nig nog vulva wwwé.com", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "@ http://a.com/é flydye lovegoo", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "arseholeſ🌺@abcd_@abchttps://example.com/path?q=1", "blank": false, "sfw": true, "url": true, "user": true}
+{"in": "@ab_cd  @a__b  death  >  moles  http://a.com/«", "blank": false, "sfw": true, "url": true, "user": true}
+{"in": "@a @user_name #", "blank": false, "sfw": false, "url": false, "user": true}
+{"in": "ASS  @abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnop   ", "blank": false, "sfw": true, "url": false, "user": true}
+{"in": "Ωmegahttp://a.com/é@a__b)@@abcdmound of venuséhttp://a.com", "blank": false, "sfw": true, "url": true, "user": true}
+{"in": "assistant", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "ex.am  -  <  http://a.com/日", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "http://a.com/日本 mound of venus", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "example.comᴋike @abcdé", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "eatpussy shota hello", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "www٣.com http://a.com/ø http://a.com/日本", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "@abcd😀moneyshot@Abcdhttps://日本語.jp/日本", "blank": false, "sfw": true, "url": false, "user": true}
+{"in": "@ab_cd", "blank": false, "sfw": false, "url": false, "user": true}
+{"in": "https://日本語.jp/日本   a.com/　b @abcd - a.b/ http://a.com/‘x’", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "@_abcd example.com a.com/　b http://a.com/日本 K @Abcd", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "eunuch  ſ  42  #  slopehead  x@abcd  _", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "www3.example.org/x < )", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "https://x.com/a_(b)", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "42", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "booty", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "fatfuck", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "http://a.com/ø krap nastyho 　 @ab_cd beat-off www.example.com", "blank": false, "sfw": true, "url": true, "user": true}
+{"in": "@a__b  faith  <  \t  rosy palm", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "@abcd_ https://x.com/a_(b)", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "beastiality", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "http://a.com/ø@4bcd", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": " remainswww3.example.org/x　Ωmega", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "приветhttps://x.com  ,  pussycat  \t", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "1", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "@a__b SHIT", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "mound of venus ſ 🌺 ſhit ASS", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "приветhttps://x.com @_abcd>", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": " hellodagoex.am@abcd_@Abcd@abc", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "http://a.com/éWww.Mixed.Com/Xscunthorpefatfuck", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "black KIKE @a__b assault    world @user", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "@(.@abcd @Abcd<", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "www٣.com \n creamy fingerfucker # fourtwenty \t", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "world sub.domain.co.uk/", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "make me come", "blank": false, "sfw": true, "url": false, "user": false}
+{"in": "http://a.com/日本", "blank": false, "sfw": false, "url": true, "user": false}
+{"in": "@a__b  a.b/  @_abcd  @Abcd", "blank": false, "sfw": false, "url": false, "user": false}
+{"in": "horniest jizm  @abc https://日本語.jp/日本 \t", "blank": false, "sfw": true, "url": true, "user": false}
+{"in": "ex.amhttp://a.com/«@abcd fuckpighttps://a.com/ xnawashiéhttp://a.com", "blank": false, "sfw": true, "url": true, "user": false}

@@ -1,0 +1,64 @@
+{"in": "/markov hello world", "split": ["/markov", "hello", "world"], "strip_empty": false, "lower": "/markov hello world"}
+{"in": "/markov  hello", "split": ["/markov", "", "hello"], "strip_empty": false, "lower": "/markov  hello"}
+{"in": "/markov   hello   world  ", "split": ["/markov", "", "", "hello", "", "", "world", "", ""], "strip_empty": false, "lower": "/markov   hello   world  "}
+{"in": "  /markov x", "split": ["", "", "/markov", "x"], "strip_empty": false, "lower": "  /markov x"}
+{"in": "/markov\thello", "split": ["/markov", "hello"], "strip_empty": false, "lower": "/markov\thello"}
+{"in": "/markov\nhello", "split": ["/markov", "hello"], "strip_empty": false, "lower": "/markov\nhello"}
+{"in": "/markov hello", "split": ["/markov hello"], "strip_empty": false, "lower": "/markov hello"}
+{"in": "/markov hello world", "split": ["/markov", "hello world"], "strip_empty": false, "lower": "/markov hello world"}
+{"in": "/markov　hello", "split": ["/markov　hello"], "strip_empty": false, "lower": "/markov　hello"}
+{"in": " ", "split": [" "], "strip_empty": false, "lower": " "}
+{"in": "　", "split": ["　"], "strip_empty": false, "lower": "　"}
+{"in": "  ", "split": ["", "", ""], "strip_empty": true, "lower": "  "}
+{"in": "\t\n", "split": ["", "", ""], "strip_empty": true, "lower": "\t\n"}
+{"in": "\u000b", "split": ["", ""], "strip_empty": true, "lower": "\u000b"}
+{"in": "\f", "split": ["", ""], "strip_empty": true, "lower": "\f"}
+{"in": "\u001f", "split": ["\u001f"], "strip_empty": false, "lower": "\u001f"}
+{"in": "​", "split": ["​"], "strip_empty": false, "lower": "​"}
+{"in": "", "split": [""], "strip_empty": true, "lower": ""}
+{"in": " a ", "split": ["", "a", ""], "strip_empty": false, "lower": " a "}
+{"in": "ab", "split": ["ab"], "strip_empty": false, "lower": "ab"}
+{"in": "/MARKOV Hello ÀÉ İ Σ", "split": ["/MARKOV", "Hello", "ÀÉ", "İ", "Σ"], "strip_empty": false, "lower": "/markov hello àé i σ"}
+{"in": "/cancel", "split": ["/cancel"], "strip_empty": false, "lower": "/cancel"}
+{"in": "/Cancel", "split": ["/Cancel"], "strip_empty": false, "lower": "/cancel"}
+{"in": "/CANCEL", "split": ["/CANCEL"], "strip_empty": false, "lower": "/cancel"}
+{"in": "ǅ", "split": ["ǅ"], "strip_empty": false, "lower": "ǆ"}
+{"in": "/cmd arg", "split": ["/cmd", "arg"], "strip_empty": false, "lower": "/cmd arg"}
+{"in": " ", "split": ["", ""], "strip_empty": true, "lower": " "}
+{"in": " x ", "split": ["", "x", ""], "strip_empty": false, "lower": " x "}
+{"in": "/cmd\targ", "split": ["/cmd", "arg"], "strip_empty": false, "lower": "/cmd\targ"}
+{"in": "\t", "split": ["", ""], "strip_empty": true, "lower": "\t"}
+{"in": "\tx\t", "split": ["", "x", ""], "strip_empty": false, "lower": "\tx\t"}
+{"in": "/cmd\u000barg", "split": ["/cmd", "arg"], "strip_empty": false, "lower": "/cmd\u000barg"}
+{"in": "\u000b", "split": ["", ""], "strip_empty": true, "lower": "\u000b"}
+{"in": "\u000bx\u000b", "split": ["", "x", ""], "strip_empty": false, "lower": "\u000bx\u000b"}
+{"in": "/cmd\farg", "split": ["/cmd", "arg"], "strip_empty": false, "lower": "/cmd\farg"}
+{"in": "\f", "split": ["", ""], "strip_empty": true, "lower": "\f"}
+{"in": "\fx\f", "split": ["", "x", ""], "strip_empty": false, "lower": "\fx\f"}
+{"in": "/cmd\rarg", "split": ["/cmd", "arg"], "strip_empty": false, "lower": "/cmd\rarg"}
+{"in": "\r", "split": ["", ""], "strip_empty": true, "lower": "\r"}
+{"in": "\rx\r", "split": ["", "x", ""], "strip_empty": false, "lower": "\rx\r"}
+{"in": "/cmd\narg", "split": ["/cmd", "arg"], "strip_empty": false, "lower": "/cmd\narg"}
+{"in": "\n", "split": ["", ""], "strip_empty": true, "lower": "\n"}
+{"in": "\nx\n", "split": ["", "x", ""], "strip_empty": false, "lower": "\nx\n"}
+{"in": "/cmd arg", "split": ["/cmd arg"], "strip_empty": false, "lower": "/cmd arg"}
+{"in": " ", "split": [" "], "strip_empty": false, "lower": " "}
+{"in": " x ", "split": [" x "], "strip_empty": false, "lower": " x "}
+{"in": "/cmdarg", "split": ["/cmdarg"], "strip_empty": false, "lower": "/cmdarg"}
+{"in": "", "split": [""], "strip_empty": false, "lower": ""}
+{"in": "x", "split": ["x"], "strip_empty": false, "lower": "x"}
+{"in": "/cmd arg", "split": ["/cmd arg"], "strip_empty": false, "lower": "/cmd arg"}
+{"in": " ", "split": [" "], "strip_empty": false, "lower": " "}
+{"in": " x ", "split": [" x "], "strip_empty": false, "lower": " x "}
+{"in": "/cmd　arg", "split": ["/cmd　arg"], "strip_empty": false, "lower": "/cmd　arg"}
+{"in": "　", "split": ["　"], "strip_empty": false, "lower": "　"}
+{"in": "　x　", "split": ["　x　"], "strip_empty": false, "lower": "　x　"}
+{"in": "/cmd​arg", "split": ["/cmd​arg"], "strip_empty": false, "lower": "/cmd​arg"}
+{"in": "​", "split": ["​"], "strip_empty": false, "lower": "​"}
+{"in": "​x​", "split": ["​x​"], "strip_empty": false, "lower": "​x​"}
+{"in": "/cmd\u001farg", "split": ["/cmd\u001farg"], "strip_empty": false, "lower": "/cmd\u001farg"}
+{"in": "\u001f", "split": ["\u001f"], "strip_empty": false, "lower": "\u001f"}
+{"in": "\u001fx\u001f", "split": ["\u001fx\u001f"], "strip_empty": false, "lower": "\u001fx\u001f"}
+{"in": "/cmd arg", "split": ["/cmd arg"], "strip_empty": false, "lower": "/cmd arg"}
+{"in": " ", "split": [" "], "strip_empty": false, "lower": " "}
+{"in": " x ", "split": [" x "], "strip_empty": false, "lower": " x "}

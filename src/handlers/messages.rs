@@ -12,7 +12,8 @@ use crate::filter;
 use crate::state::{
     ANTIFLOOD_RATE, ANTIFLOOD_SECONDS, AppState, MAX_SESSION_NAME_LENGTH, unix_now,
 };
-use crate::text::{emojipasta, owo};
+use crate::text::nim_case::to_lower_nim;
+use crate::text::{emojipasta, nim_str, owo};
 
 pub fn is_group_chat(chat: &teloxide::types::Chat) -> bool {
     matches!(&chat.kind, ChatKind::Public(public)
@@ -71,18 +72,17 @@ pub async fn handle_message(
         if !is_admin && st.is_flood(chat_id, ANTIFLOOD_RATE, ANTIFLOOD_SECONDS) {
             return Ok(());
         }
-        let mut parts = text.split_whitespace();
-        let Some(first) = parts.next() else {
-            return Ok(());
-        };
-        let mut command = first.trim_start_matches('/');
-        if let Some((name, target)) = command.split_once('@') {
-            if !target.eq_ignore_ascii_case(&st.bot_username()) {
+        let parts = nim_str::split(text);
+        let mut command = parts[0].trim_start_matches('/');
+        if command.contains('@') {
+            // Nim splits on every '@' and compares the last piece.
+            let pieces: Vec<&str> = command.split('@').collect();
+            if !pieces[pieces.len() - 1].eq_ignore_ascii_case(&st.bot_username()) {
                 return Ok(());
             }
-            command = name;
+            command = pieces[0];
         }
-        let args: Vec<String> = parts.map(str::to_owned).collect();
+        let args: Vec<String> = parts[1..].iter().map(|s| (*s).to_owned()).collect();
         let ctx = MsgCtx {
             chat_id,
             msg_id: msg.id.0 as i64,
@@ -257,7 +257,7 @@ async fn finish_add_session(
     settings_msg_id: i64,
     text: &str,
 ) {
-    if text.to_lowercase().starts_with("/cancel") {
+    if to_lower_nim(text).starts_with("/cancel") {
         let _ = tg
             .edit_message_text(
                 chat_id,
